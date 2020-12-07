@@ -6,16 +6,19 @@
     box-sizing: border-box;
     background-color: #f9f3ee;
     color: #6e6e6e;
+    height: 60px;
 }
 
 .nav-list{
     display: flex;
     list-style: none;
-    padding-left:0px;
+    padding: 10px 0;
     justify-content: space-between;
+    margin: 0;
 }
 
 .nav-btn{
     font-size: 8px;
     text-align: center;
+    height: 40px;
 }
