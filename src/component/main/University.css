@@ -1,0 +1,122 @@
+
+body{
+    background-color: #eefbff;
+}
+
+.contents{
+    background-color: white;
+}
+
+.bars{
+    font-size: 18px;
+    position: absolute;
+    color: #665252;
+    top: 3.2%;
+    left: 4.4%;
+}
+
+.title{
+    font-size: 24px;
+    position: absolute;
+    top: 2.4%;
+    right: 25.4%;
+    left: 25.4%;
+    text-align: center;
+    color: #009cc6;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 12px;
+    position: absolute;
+    color: #009cc6;
+    font-weight: bold;
+    top: 15%;
+    left: 7.5%;
+}
+
+.contents{
+    margin: 32.7% 7.5% 13.3% 7.2%;
+}
+
+.tab1, .tab2{
+    margin-top: 10px;
+    width: 124px;
+    height: 24px;
+    font-size: 8px;
+}
+
+.tab1{
+    background-color: #70cde5;
+    border: 1px solid black;
+    color: white;
+
+    outline: 0;
+    margin-left: 15px;
+}
+.tab2{
+    float: right;
+    margin-right: 15px;
+    border: 1px solid black;
+    background-color: white;
+    color: gray;
+}
+
+.search{
+    margin: 6.6% 28.8% 0% 28.8%;
+    padding-top: 4px;
+    font-size: 8px;
+    text-align: center;
+    border: 1px solid black;
+    width: 136px;
+    height: 16px;
+}
+
+.table{
+    margin: 0% 4.5%;
+    width: 90%;
+    height: 325px;
+}
+
+.table-title{
+    font-size: 8px;
+}
+
+th, td{
+    border-bottom: 1px solid #707070;
+}
+
+td{
+    font-size: 8px;
+    text-align: center;
+}
+
+.pages{
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.page1, .page2, .page3{
+    margin: 0px 16px;
+    font-size: 8px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    text-align: center;
+}
+
+.page1{
+    background-color: #70cde5;
+    color: white;
+}
+
+.result {
+    color: white;
+    font-size: 9px;
+    width: 34px;
+    height: 34px;
+    background-color: #70cde5;
+    outline: 0;
+    border: 0;
+}

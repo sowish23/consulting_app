@@ -1,0 +1,137 @@
+
+body{
+    background-color: #eefbff;
+}
+
+.bars{
+    font-size: 18px;
+    position: absolute;
+    color: #665252;
+    top: 3.2%;
+    left: 4.4%;
+}
+
+.title{
+    font-size: 24px;
+    position: absolute;
+    top: 2.4%;
+    right: 25.4%;
+    left: 25.4%;
+    text-align: center;
+    color: #009cc6;
+    font-weight: bold;
+}
+
+.shortcuts{
+    font-size: 12px;
+    position: absolute;
+    color: #009cc6;
+    font-weight: bold;
+}
+
+.shortcuts1{
+    top: 15%;
+    left: 7.5%;
+}
+
+.shortcuts2{
+    top: 52%;
+    left: 7.5%;
+}
+
+.shortcuts3{
+    top: 66%;
+    left: 7.5%;
+}
+
+.th{
+    border-right: 1px solid #c2bebe;
+}
+
+.solid-bottom{
+    border-bottom: 1px solid #c2bebe;
+    text-align: center;
+    font-size: 8px;
+}
+
+.table{
+    position: absolute;
+    width: 320px;
+    height: 181px;
+    top: 19%;
+    left: 5.5%;
+    right: 5.5%;
+    background-color: white;
+}
+
+.group1{
+    width: 320px;
+    height: 48px;
+    position: absolute;
+    top: 57.2%;
+    left: 5.3%;
+    right: 5.3%;
+    padding-top: 10px 15px 0px 15px;
+}
+
+.group1-btn{
+    width: 124px;
+    height: 24px;
+    border-radius: 0px;
+    border: 1px solid black;
+    outline: 0;
+}
+
+.btn-department{
+    float: right;
+}
+
+.group2{
+    position: absolute;
+    top: 69%;
+    left: 6.8%;
+    right: 6.5%;
+    width: 310px;
+    height: 92px;
+    margin: 7px 0px 12.7px 0px;
+}
+
+.tag{
+    font-size: 8px;
+    color: #2d2d2d;
+    margin-left: 32px;
+}
+
+.tag1 {
+    margin-top: 10px;
+}
+
+.tag2 .tag3 {
+    margin-top: 6px;
+}
+
+.group2-hr {
+    border: 1px solid #c2bebe;
+}
+
+.group2-btn1, .group2-btn2, .group2-btn3 {
+    width: 36px;
+    height: 20px;
+    font-size: 8px;
+}
+
+.group2-btn1 {
+    margin-left: 54px;
+}
+
+.group2-btn2, .group2-btn3{
+    margin-left: 32px;
+}
+
+.group2-input {
+    font-size: 6px;
+    text-align: center;
+    margin-left: 54px;
+    width: 83px;
+    height: 18px;
+}

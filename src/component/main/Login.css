@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #009cc6;
+}
+
+
+.title{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    top: 33.6%;
+    left: 21.1%;
+}
+
+.sub-title{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    top: 43.2%;
+    left: 34.5%;
+}
+
+.kakao {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 312px;
+    margin: 0px auto;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p1 {
+    display: inline-block;
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #593a00;
+}
+
+.p2 {
+    display: inline-block;
+    font-size: 12px;
+    color: #593a00;
+}
+
+/* .facebook {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 312px;
+    margin: 0px auto;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+} */
+
+
