@@ -1,7 +1,7 @@
 import React from "react";
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "./Info.css";
+import "./InfoForm.css";
 import Footer from '../common/Footer';
 import Header from '../common/Header';
 
