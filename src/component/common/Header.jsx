@@ -7,8 +7,12 @@ import "./Header.css";
 const Header = () => {
 	return (
         <div className="header">
-            <div className="bars"><FontAwesomeIcon icon={faBars} /></div>
-            <div className="title">ING 입시연구소</div>
+            <div className="header_width">
+                <div className="bars"><FontAwesomeIcon icon={faBars} /></div>
+                <div className="title_center">
+                    <div className="title">ING 입시연구소</div>
+                </div>
+            </div>
         </div>
 	);
 };
