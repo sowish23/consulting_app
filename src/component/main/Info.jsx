@@ -25,19 +25,26 @@ const Info = () => {
 							</div>
 							<div className="table_contents">
 								<div className="contents_title">수험생과의 관계</div>
-								<div>
-									<button className="relation_btn">본인</button>
-									<button className="relation_btn"> 학생모</button>
-									<button className="relation_btn">학생부</button>
+								<div className="contents_radio">
+									<input id="본인" type="radio" name="relation"/>
+									<label className="relation_btn" for="본인">본인</label>
+									<input id="학생모" type="radio" name="relation"/>
+									<label className="relation_btn" for="학생모">학생모</label>
+									<input id="학생부" type="radio" name="relation"/>
+									<label className="relation_btn" for="학생부">학생부</label>
 								</div>
 							</div>
 							<div className="table_contents">
 								<div className="contents_title">학년</div>
-								<div>
-									<button className="relation_btn">고1</button>
-									<button className="relation_btn">고2</button>
-									<button className="relation_btn">고3</button>
-									<button className="relation_btn">N수</button>
+								<div className="contents_radio">
+									<input id="고1" type="radio" name="grade"/>
+									<label className="relation_btn" for="고1">고1</label>
+									<input id="고2" type="radio" name="grade"/>
+									<label className="relation_btn" for="고2">고2</label>
+									<input id="고3" type="radio" name="grade"/>
+									<label className="relation_btn" for="고3">고3</label>
+									<input id="N수" type="radio" name="grade"/>
+									<label className="relation_btn" for="N수">N수</label>
 								</div>
 							</div>
 							<div className="table_contents">

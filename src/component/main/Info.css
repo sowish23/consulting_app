@@ -123,4 +123,13 @@
     border-radius: 6px;
     width: fit-content;
     font-size: 12px;
+    padding: 2px 6px;
+}
+
+.contents_radio > input {
+    display: none;
+}
+
+.contents_radio input:checked + label {
+    background-color: #70cde5;
 }
