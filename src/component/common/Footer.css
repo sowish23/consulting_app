@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 0px 50px;
+    padding: 0px 20px;
     box-sizing: border-box;
     background-color: #f9f3ee;
     color: #6e6e6e;
@@ -17,4 +17,5 @@
 
 .nav-btn{
     font-size: 8px;
+    text-align: center;
 }
