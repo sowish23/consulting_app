@@ -91,14 +91,14 @@ const Info = () => {
 									</select>
 								</div>
 								<div className="contents_input">
-									<input className="grade_input"/>
+									<input className="grade_input" placeholder="원점수 입력"/>
 								</div>
 							</div>
 							<div className="table_contents">
 								<div className="contents_title">※필수 입력</div>
 								<div className="contents_subject">영어</div>
 								<div className="contents_input">
-									<input className="grade_input"/>
+									<input className="grade_input" placeholder="원점수 입력"/>
 								</div>
 							</div>
 							<div className="table_contents">
@@ -126,7 +126,7 @@ const Info = () => {
 									</select>
 								</div>
 								<div className="contents_input">
-									<input className="grade_input"/>
+									<input className="grade_input" placeholder="원점수 입력"/>
 								</div>
 							</div>
 							<div className="table_contents">
@@ -154,7 +154,7 @@ const Info = () => {
 									</select>
 								</div>
 								<div className="contents_input">
-									<input className="grade_input"/>
+									<input className="grade_input" placeholder="원점수 입력"/>
 								</div>
 							</div>
 							<div className="table_contents">
