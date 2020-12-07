@@ -1,148 +1,125 @@
-
-button{
-    font-size: 8px;
-    width: 50px;
-    height: 22px; 
+.Info_page {
+    background-color: #EEFBFF;
+    z-index: 1;
+    height: 100vh;
 }
 
-hr{
-    margin: 2px 0px;
+.Info_content {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
 }
 
-.bars{
-    font-size: 18px;
-    position: absolute;
-    color: #665252;
-    top: 3.2%;
-    left: 4.4%;
+.Info_detail {
+    width: 90%;
+    margin: auto;
 }
 
-.title{
-    font-size: 24px;
-    position: absolute;
-    top: 2.4%;
-    right: 25.4%;
-    left: 25.4%;
-    text-align: center;
-    color: #009cc6;
-    font-weight: bold;
+.btn_tab {
+    width: 100%;
+    height: 24px;
 }
 
-.btn{
+.complete_btn{
     border: 0;
     border-radius: 10px;
+    padding: 4px 12px;
     background-color: #70cde5;
     color: white;
+    margin-top: 12px;
+    float: right;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 }
 
-.subTitle{
-    position: absolute;
-    left: 7.5%;
+.info_title, .grade_title {
+    color: #ffffff;
+    margin: 12px 0;
 }
 
-.subTitle1{
-    top: 11%;
-    font-weight: bold;
+.info_table, .grade_table {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 8px;
+    padding: 6px 12px;
 }
 
-.subTitle2{
-    top: 49%;
-    font-weight: bold;
+.table_contents {
+    display: flex;
+    border-bottom: 1px solid #C2BEBE;
+    padding: 6px;
+    height: 22px;
+    line-height: 22px;
 }
 
-.sub1{
-    width: 85.3%;
-    height: 188px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 30% auto 0;
+.table_contents:last-child {
+    border: 0;
+}
+
+.contents_title {
+    margin-bottom: 6px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.contents_subject {
+    width: 30%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0 6px;
+    margin: 0 12px;
+    height: 22px;
+    font-size: 10px;
+}
+
+.contents_select {
+    border: 0;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+.contents_input {
+    width: 30%;
+    height: 20px;
+    margin: 0 12px;
+}
+
+.grade_input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    text-align: center;
     font-size: 8px;
 }
 
-
-.contents{
-    margin: 5px 0px 0px 3%;
+.name_input{
+    border: 1px solid #707070;
+    width: 62px;
 }
 
-.name{
-    width: 62px;
+.tel_input {
+    border: 1px solid #707070;
+    width: 36px;
+    margin: 0 6px;
+}
+
+.tel_input:first-child {
+    margin-left: 0;
+}
+
+.email_input{
+    border: 1px solid #707070;
+    width: 100px;
     height: 18px;
-    margin-left: 8%;
 }
 
 .relation_btn{
-    margin: 0px 0px 0px 1%;
-}
-
-.grade_btn{
-    margin-left: 4px;
-}
-
-.grade_btn1{
-    margin: 0px 0px 0px 18%;
-}
-
-.highShool-input{
-    margin: 0px 0px 0px 10%;
-}
-
-.phone{
-    width: 32px;
-    height: 18px;
-}
-
-.phone-input{
-    margin: 0px 0px 0px 6%;
-}
-
-.email-input{
-    margin: 0 0 0 6%;
-}
-
-.sub2{
-    width: 85.3%;
-    height: 230px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 16% auto;
-}
-
-.btn{
-    position: absolute;
-    width: 58px;
-    height: 18px;
-    font-size: 8px;
-    top: 10.9%;
-    left: 78.4%;
-}
-
-.subject{
-    font-size: 8px;
-    text-align: center;
-    width: 82px;
-    height: 15px;
-    border: 1px solid black;
-    padding-top: 3px;
-    margin: 3px 0px 0px 30px;
-    float: left;
-    border-radius: 4px;
-}
-
-.must{
-    font-size: 5px;
-    color: #2d2d2d;
-    float: left;
-    margin: 7px 0px 0px 10px;
-}
-
-.score{
-    margin: 0px 30px;
-    width: 62px;
-    height: 18px;
-    font-size: 5px;
-    text-align: center;
-}
-
-.not-must{
-    margin-left: 61px;
+    margin-right: 6px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 12px;
 }
