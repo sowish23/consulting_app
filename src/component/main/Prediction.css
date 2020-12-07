@@ -3,25 +3,6 @@ body{
     background-color: #eefbff;
 }
 
-.bars{
-    font-size: 18px;
-    position: absolute;
-    color: #665252;
-    top: 3.2%;
-    left: 4.4%;
-}
-
-.title{
-    font-size: 24px;
-    position: absolute;
-    top: 2.4%;
-    right: 25.4%;
-    left: 25.4%;
-    text-align: center;
-    color: #009cc6;
-    font-weight: bold;
-}
-
 .shortcuts{
     font-size: 12px;
     position: absolute;

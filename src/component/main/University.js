@@ -3,12 +3,12 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./University.css";
 import Footer from '../common/Footer';
+import Header from '../common/Header';
 
 const University = () => {
   return (
     <div>
-      <div className="bars"><FontAwesomeIcon icon={faBars} /></div>
-      <div className="title">ING 입시연구소</div>
+      <Header />
       <div className="sub-title">대학 / 학과별 분석</div>
       <div className="contents">
         <div className="tabs">

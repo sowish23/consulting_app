@@ -3,12 +3,12 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./Prediction.css";
 import Footer from '../common/Footer';
+import Header from '../common/Header';
 
 const Prediction = () => {
   return (
     <div>
-      <div className="bars"><FontAwesomeIcon icon={faBars} /></div>
-      <div className="title">ING 입시연구소</div>
+      <Header />
       <div className="shortcuts shortcuts1">내 성적 분석 바로가기</div>
       <table className="table">
         <tr>
