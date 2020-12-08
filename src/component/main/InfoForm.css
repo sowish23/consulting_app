@@ -4,9 +4,12 @@
     height: 100vh;
 }
 
+.show_nav {
+    opacity: 0.5;
+}
+
 .Info_content {
-    margin-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
 }

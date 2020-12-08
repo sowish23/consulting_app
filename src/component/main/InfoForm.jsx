@@ -5,10 +5,11 @@ import "./InfoForm.css";
 import Footer from '../common/Footer';
 import Header from '../common/Header';
 
-const Info = () => {
+const Info = props => {
+	const {showNav} = props;
+
 	return (
-		<div className="Info_page">
-			<Header />
+		<div className={showNav? "Info_page show_nav" : "Info_page"}>
 			<div className="Info_content">
 				<div className="Info_detail">
 					<div className="btn_tab">
@@ -183,7 +184,6 @@ const Info = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };

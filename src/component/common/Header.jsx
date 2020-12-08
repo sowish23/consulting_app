@@ -2,13 +2,16 @@ import React, { useState, useEffect } from "react";
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./Header.css";
+import SideNav from "./SideNav"
 
 // [TODO]
-const Header = () => {
+const Header = props => {
+    const {setShowNav} = props
 	return (
         <div className="header">
+            {/* <SideNav show={showNav}/> */}
             <div className="header_width">
-                <div className="bars"><FontAwesomeIcon icon={faBars} /></div>
+                <div className="bars" onClick={() => setShowNav(true)}><FontAwesomeIcon icon={faBars} /></div>
                 <div className="title_center">
                     <div className="title">ING 입시연구소</div>
                 </div>
