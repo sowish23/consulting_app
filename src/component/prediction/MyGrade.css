@@ -1,0 +1,60 @@
+.prediction_page{
+    background-color: #eefbff;
+    height: 100vh;
+}
+
+.prediction_content {
+    padding: 60px 0;
+}
+
+.prediction_detail {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.section {
+    margin: 6px 0;
+}
+
+.link_title{
+    color: #009cc6;
+    font-weight: bold;
+}
+
+.grade_table{
+    margin: 12px 0;
+    padding: 12px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.grade_table table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grade_table table tbody tr{
+    border-bottom: 1px solid #C2BEBE;
+    font-size: 12px;
+    text-align: center;
+}
+
+.grade_table table tbody tr:last-child{
+    border-bottom: 0
+}
+
+.grade_table table tbody tr td{
+    padding: 6px;
+}
+
+.sort_tap {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.sort_tap select {
+    width: 100%;
+    text-align: center;
+}
