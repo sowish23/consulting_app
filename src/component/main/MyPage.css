@@ -1,0 +1,149 @@
+.Info_page {
+    background-color: #EEFBFF;
+    z-index: 1;
+    height: 100vh;
+}
+
+.Info_content {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    height: 100vh;
+}
+
+.Info_detail {
+    width: 90%;
+    margin: auto;
+}
+
+.btn_tab {
+    width: 100%;
+    height: 24px;
+}
+
+.complete_btn{
+    border: 0;
+    border-radius: 10px;
+    padding: 4px 12px;
+    background-color: #70cde5;
+    color: #ffffff;
+    margin-top: 12px;
+    float: right;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.info_title, .grade_title {
+    display: inline-block;
+    color: #70cde5;
+    margin: 12px 0;
+    width: 40%;
+}
+
+.grade_subtitle {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+.subtitle {
+    color: #70cde5;
+    font-size: 0.7em;
+    vertical-align: text-bottom;
+}
+
+.info_table, .grade_table {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 8px;
+    padding: 6px 12px;
+}
+
+.table_contents {
+    display: flex;
+    border-bottom: 1px solid #C2BEBE;
+    padding: 6px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.table_contents:last-child {
+    border: 0;
+}
+
+.contents_title {
+    margin-bottom: 6px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.contents_subject {
+    width: 30%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0 6px;
+    margin: 0 12px;
+    height: 22px;
+    font-size: 10px;
+}
+
+.contents_select {
+    border: 0;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+.contents_input {
+    width: 30%;
+    height: 20px;
+    margin: 0 12px;
+}
+
+.grade_input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 8px;
+}
+
+.name_input{
+    border: 1px solid #707070;
+    width: 62px;
+}
+
+.tel_input {
+    border: 1px solid #707070;
+    width: 36px;
+    margin: 0 6px;
+}
+
+.tel_input:first-child {
+    margin-left: 0;
+}
+
+.email_input{
+    border: 1px solid #707070;
+    width: 100px;
+    height: 18px;
+}
+
+.relation_btn{
+    margin-right: 6px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+
+.contents_radio > input {
+    display: none;
+}
+
+.contents_radio input:checked + label {
+    background-color: #70cde5;
+}
