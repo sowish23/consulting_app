@@ -13,7 +13,7 @@ const Header = props => {
             <div className="header_width">
                 <div className="bars" onClick={() => setShowNav(true)}><FontAwesomeIcon icon={faBars} /></div>
                 <div className="title_center">
-                    <div className="title">ING 입시연구소</div>
+                    <div className="title">InG 정시 합격 예측</div>
                 </div>
             </div>
         </div>
