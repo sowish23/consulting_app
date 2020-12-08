@@ -7,9 +7,6 @@ const Info = props => {
 	const science = ["물리1", "화학1", "생명1", "지구과학1", "물리2", "화학2", "생명2", "지구과학2"]
 	const career = []
 
-	useEffect(() => {
-		console.log(subject)
-	})
 	const [subject, checkSubject] = useState('')
 
 	return (
@@ -83,12 +80,12 @@ const Info = props => {
 						<div className="grade_subtitle">
 							<span className="subtitle">*가채점 결과를 입력해주세요.</span>
 						</div>
-							<div className="table_contents_title">
-								<div className="contents_subject_title">과목</div>
-								<div className="contents_input_title">표준점수</div>
-								<div className="contents_input_title">백분위</div>
-								<div className="contents_input_title">등급</div>
-							</div>
+						<div className="table_contents_title">
+							<div className="contents_subject_title">과목</div>
+							<div className="contents_input_title">표준점수</div>
+							<div className="contents_input_title">백분위</div>
+							<div className="contents_input_title">등급</div>
+						</div>
 						<div className="grade_table">
 							<div className="table_contents">
 								<div className="contents_subject">국어</div>

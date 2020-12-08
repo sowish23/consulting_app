@@ -16,20 +16,26 @@
 }
 
 .btn_tab {
-    width: 100%;
     height: 24px;
 }
 
 .complete_btn{
+    float: right;
     border: 0;
     border-radius: 10px;
     padding: 4px 12px;
     background-color: #70cde5;
-    color: #ffffff;
-    margin-top: 12px;
-    float: right;
+    color: white;
     font-size: 12px;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.info, .grade {
+    margin: 12px 0;
+}
+
+.grade {
+    margin-top : 36px;
 }
 
 .info_title, .grade_title {
@@ -77,27 +83,56 @@
     vertical-align: middle;
 }
 
-.contents_subject {
+.table_contents_title {
+    display: flex;
+    padding: 0 12px 6px 12px;
+
+}
+
+.contents_subject_title {
+    width: 25%;
+    font-size: 0.8em;
+    margin: 0 6px;
+    text-align: center;
+}
+
+.contents_input_title {
+    width: 25%;
+    font-size: 0.8em;
+    margin: 0 6px;
+    text-align: center;
+}
+
+.contents_sub_check {
     width: 30%;
     border: 1px solid #707070;
     border-radius: 6px;
     text-align: center;
-    padding: 0 6px;
-    margin: 0 12px;
+    margin: 0 6px;
     height: 22px;
-    font-size: 10px;
+    font-size: 0.8em;
 }
 
-.contents_select {
+.contents_subject {
+    width: 25%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 6px;
+    height: 22px;
+    font-size: 0.8em;
+}
+
+.contents_select{
     border: 0;
     background-color: #ffffff;
     font-size: 10px;
 }
 
 .contents_input {
-    width: 30%;
+    width: 25%;
     height: 20px;
-    margin: 0 12px;
+    margin: 0 6px;
 }
 
 .grade_input {
