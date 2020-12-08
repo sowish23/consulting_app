@@ -11,16 +11,16 @@ const Footer = () => {
                     <div className="btn_title">홈</div>
                 </li>
                 <li className="nav-btn">
-                    <img src={'/assets/icons/copy.svg'} />
-                    <div className="btn_title">모의 지원</div>
-                </li>
-                <li className="nav-btn">
                     <img src={'/assets/icons/darts.svg'} />
                     <div className="btn_title">합격 예측</div>
                 </li>
                 <li className="nav-btn">
                     <img src={'/assets/icons/debate.svg'} />
                     <div className="btn_title">컨설팅</div>
+                </li>
+                <li className="nav-btn">
+                    <img src={'/assets/icons/copy.svg'} />
+                    <div className="btn_title">모의 지원</div>
                 </li>
                 <li className="nav-btn">
                     <img src={'/assets/icons/user.svg'} />
