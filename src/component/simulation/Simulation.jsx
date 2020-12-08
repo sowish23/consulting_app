@@ -8,7 +8,6 @@ const Simulation = () => {
 			<div className="simulation_content">
 				<div className="simulation_detail">
 					{/* <div className="section">
-						<div className="link_title">모의 지원 입력</div>
 						<div className="univ_box">
                             <div className="box_content">
                                 <div className="contents_title">계열</div>
@@ -38,6 +37,7 @@ const Simulation = () => {
                     <div className="section_hr">
                     </div> */}
                     <div className="section">
+						<div className="link_title">모의 지원 입력</div>
                         {
                             type.map(e => {
                                 return (
