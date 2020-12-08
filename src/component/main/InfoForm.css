@@ -34,8 +34,22 @@
 }
 
 .info_title, .grade_title {
+    display: inline-block;
     color: #ffffff;
     margin: 12px 0;
+    width: 40%;
+}
+
+.grade_subtitle {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 0.7em;
+    vertical-align: text-bottom;
 }
 
 .info_table, .grade_table {

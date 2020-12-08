@@ -72,7 +72,12 @@ const Info = () => {
 						</div>
 					</div>
 					<div className="grade">
-						<p className="grade_title">수능 성적 입력</p>
+						<div className="grade_title">
+							수능 성적 입력
+						</div>
+						<div className="grade_subtitle">
+							<span className="subtitle">*가채점 결과를 입력해주세요.</span>
+						</div>
 						<div className="grade_table">
 							<div className="table_contents">
 								<div className="contents_title">※필수 입력</div>
@@ -171,6 +176,9 @@ const Info = () => {
 									<input className="grade_input" placeholder="원점수 입력"/>
 								</div>
 							</div>
+						</div>
+						<div className="complete_btn">
+							<span>내신성적 입력하기</span>
 						</div>
 					</div>
 				</div>
