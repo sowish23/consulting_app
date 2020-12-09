@@ -1,18 +1,28 @@
 import React, { useState, useEffect } from "react";
 import "./Footer.css";
+import { NavLink } from 'react-router-dom';
 
-// [TODO]
 const Footer = () => {
+    const activeStyle = {
+        fontWeight: 'bold',
+        fontSize : '1.2em',
+        textDecoration: 'none',
+        color: '#70cde5'
+    }
 	return (
         <div className="nav">
             <ul className="nav-list">
                 <li className="nav-btn">
-                    <img src={'/assets/icons/home.svg'} />
-                    <div className="btn_title">홈</div>
+                    <NavLink exact to ='/help' activeStyle={activeStyle}>
+                        <img src={'/assets/icons/home.svg'} />
+                        <div className="btn_title">홈</div>
+                    </NavLink>
                 </li>
                 <li className="nav-btn">
-                    <img src={'/assets/icons/darts.svg'} />
-                    <div className="btn_title">합격 예측</div>
+                    <NavLink exact to ='/prediction' activeStyle={activeStyle}>
+                        <img src={'/assets/icons/darts.svg'} />
+                        <div className="btn_title">합격 예측</div>
+                    </NavLink>
                 </li>
                 <li className="nav-btn">
                     <img src={'/assets/icons/debate.svg'} />
