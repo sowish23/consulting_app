@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./SideNav.css";
+import { NavLink } from 'react-router-dom';
 
 const SideNav = props => {
     const { show, setShowNav } = props;
@@ -27,16 +28,24 @@ const SideNav = props => {
                             {
                                 showSub1 ?
                                     <div className="menu_sub">
-                                        <div className="menu_sub_title">- 내 성적 분석</div>
+                                        <NavLink exact to ='/prediction/mygrade'>
+                                            <div className="menu_sub_title">- 내 성적 분석</div>
+                                        </NavLink>
+                                        <NavLink exact to ='/prediction/university'>
                                         <div className="menu_sub_title">- 대학/학과별 분석</div>
+                                        </NavLink>
+                                        <NavLink exact to ='/prediction/beneficial'>
                                         <div className="menu_sub_title">- 나에게 유리한 대학찾기</div>
+                                        </NavLink>
                                     </div> :
                                     null
                             }
                         </div>
                         <div className="nav_menu">
                             <div className="menu_title">
-                                <div>AI 맞춤 컨설팅</div>
+                                <NavLink exact to ='/consulting'>
+                                    <div>AI 맞춤 컨설팅</div>
+                                </NavLink>
                             </div>
                         </div>
                         <div className="nav_menu">
@@ -49,8 +58,12 @@ const SideNav = props => {
                             {
                                 showSub2 ?
                                     <div className="menu_sub">
-                                        <div className="menu_sub_title">- 모의 지원 입력</div>
-                                        <div className="menu_sub_title">- 모의 지원 결과 보고</div>
+                                        <NavLink exact to ='/simulation'>
+                                            <div className="menu_sub_title">- 모의 지원 입력</div>
+                                        </NavLink>
+                                        <NavLink exact to ='/simulation/result'>
+                                            <div className="menu_sub_title">- 모의 지원 결과 보고</div>
+                                        </NavLink>
                                     </div> :
                                     null
                             }
@@ -65,7 +78,9 @@ const SideNav = props => {
                             {
                                 showSub3 ?
                                     <div className="menu_sub">
-                                        <div className="menu_sub_title">- 내 정보</div>
+                                        <NavLink exact to ='/setting'>
+                                            <div className="menu_sub_title">- 내 정보</div>
+                                        </NavLink>
                                     </div> :
                                     null
                             }
