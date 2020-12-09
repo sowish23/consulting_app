@@ -1,5 +1,5 @@
 import React from "react";
-import "./SimulationUniversity.css";
+import "./University.css";
 
 const University = () => {
 	return (
