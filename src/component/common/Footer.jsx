@@ -25,8 +25,10 @@ const Footer = () => {
                     </NavLink>
                 </li>
                 <li className="nav-btn">
-                    <img src={'/assets/icons/debate.svg'} />
-                    <div className="btn_title">컨설팅</div>
+                    <NavLink exact to ='/consulting' activeStyle={activeStyle}>
+                        <img src={'/assets/icons/debate.svg'} />
+                        <div className="btn_title">컨설팅</div>
+                    </NavLink>
                 </li>
                 <li className="nav-btn">
                     <img src={'/assets/icons/copy.svg'} />

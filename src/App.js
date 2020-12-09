@@ -12,6 +12,8 @@ import University from './component/prediction/University.jsx';
 import UniversityResult from './component/prediction/UniversityResult.jsx';
 import Beneficial from './component/prediction/Beneficial.jsx';
 
+import Consulting from './component/consulting/Consulting.jsx';
+
 function App() {
   return (
     <Switch>
@@ -25,6 +27,8 @@ function App() {
       <Route path="/prediction/mygrade" component={MyGrade} />
       <Route path="/prediction/university" component={University} />
       <Route path="/prediction/beneficial" component={Beneficial} />
+
+      <Route path="/consulting" component={Consulting} />
     </Switch>
   );
 }
