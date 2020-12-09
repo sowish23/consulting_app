@@ -20,7 +20,7 @@ const SchoolGradeForm = ({history}) => {
 			<div className="SchoolGradeForm_content">
 				<div className="SchoolGradeForm_detail">
 					<div className="btn_tab">
-						<button className="complete_btn">완료하기</button>
+						<button className="complete_btn" onClick={() => history.push('/mypage')}>완료하기</button>
 					</div>
 					<div className="info">
 						<p className="info_title">내신 성적 입력</p>

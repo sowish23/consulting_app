@@ -3,7 +3,7 @@ import "./MyPage.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const MyPage = props => {
+const MyPage = ({history}) => {
 	const society = ["생활과 윤리", "윤리와 사상", "한국지리", "세계지리", "동아시아사", "세계사", "법과 정치", "경제", "사회·문화"]
 	const science = ["물리1", "화학1", "생명1", "지구과학1", "물리2", "화학2", "생명2", "지구과학2"]
 	const career = []
@@ -13,12 +13,9 @@ const MyPage = props => {
 	return (
 		<div>
 			<Header />
-			<div className="Info_page">
-				<div className="Info_content">
-					<div className="Info_detail">
-						<div className="btn_tab">
-							<button className="complete_btn">수정하기</button>
-						</div>
+			<div className="MyPage_page">
+				<div className="MyPage_content">
+					<div className="MyPage_detail">
 						<div className="info">
 							<div className="info_table">
 								<div className="table_contents">
@@ -234,6 +231,9 @@ const MyPage = props => {
 									</div>
 								</div>
 							</div>
+						</div>
+						<div className="edit_btn">
+							<button onClick={() => history.push('/info_form')}>수정하기</button>
 						</div>
 					</div>
 				</div>

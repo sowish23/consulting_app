@@ -1,26 +1,26 @@
-.Info_page {
+.MyPage_page {
     background-color: #EEFBFF;
     z-index: 1;
     min-height: 100vh;
     height: 100%;
 }
 
-.Info_content {
+.MyPage_content {
     padding-top: 60px;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
-.Info_detail {
+.MyPage_detail {
     width: 90%;
     margin: 20px auto;
 }
 
 .btn_tab {
-    height: 24px;
+    float: right;
 }
 
 .complete_btn{
-    float: right;
     border: 0;
     border-radius: 10px;
     padding: 4px 12px;
@@ -181,4 +181,15 @@
 
 .contents_radio input:checked + label {
     background-color: #70cde5;
+}
+
+.edit_btn button{
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding: 4px 12px;
+    background-color: #70cde5;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 }
