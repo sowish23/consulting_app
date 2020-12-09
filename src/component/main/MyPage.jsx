@@ -16,129 +16,129 @@ const MyPage = ({history}) => {
 			<div className="MyPage_page">
 				<div className="MyPage_content">
 					<div className="MyPage_detail">
-						<div className="info">
-							<div className="info_table">
-								<div className="table_contents">
-									<div className="contents_title">수험생 이름</div>
+						<div className="MyPage_info">
+							<div className="MyPage_info_table">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">수험생 이름</div>
 									<div>
-										<input className="name_input" />
+										<input className="MyPage_name_input" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_title">수험생과의 관계</div>
-									<div className="contents_radio">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">수험생과의 관계</div>
+									<div className="MyPage_contents_radio">
 										<input id="본인" type="radio" name="relation" />
-										<label className="relation_btn" for="본인">본인</label>
+										<label className="MyPage_relation_btn" for="본인">본인</label>
 										<input id="학생모" type="radio" name="relation" />
-										<label className="relation_btn" for="학생모">학생모</label>
+										<label className="MyPage_relation_btn" for="학생모">학생모</label>
 										<input id="학생부" type="radio" name="relation" />
-										<label className="relation_btn" for="학생부">학생부</label>
+										<label className="MyPage_relation_btn" for="학생부">학생부</label>
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_title">학년</div>
-									<div className="contents_radio">
-										<input id="고1" type="radio" name="grade" />
-										<label className="relation_btn" for="고1">고1</label>
-										<input id="고2" type="radio" name="grade" />
-										<label className="relation_btn" for="고2">고2</label>
-										<input id="고3" type="radio" name="grade" />
-										<label className="relation_btn" for="고3">고3</label>
-										<input id="N수" type="radio" name="grade" />
-										<label className="relation_btn" for="N수">N수</label>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">학년</div>
+									<div className="MyPage_contents_radio">
+										<input id="고1" type="radio" name="MyPage_grade" />
+										<label className="MyPage_relation_btn" for="고1">고1</label>
+										<input id="고2" type="radio" name="MyPage_grade" />
+										<label className="MyPage_relation_btn" for="고2">고2</label>
+										<input id="고3" type="radio" name="MyPage_grade" />
+										<label className="MyPage_relation_btn" for="고3">고3</label>
+										<input id="N수" type="radio" name="MyPage_grade" />
+										<label className="MyPage_relation_btn" for="N수">N수</label>
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_title">출신 고교</div>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">출신 고교</div>
 									<div>
-										<input className="name_input" />
+										<input className="MyPage_name_input" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_title">핸드폰 번호</div>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">핸드폰 번호</div>
 									<div>
-										<input className="tel_input" />
+										<input className="MyPage_tel_input" />
 									-
-									<input className="tel_input" />
+									<input className="MyPage_tel_input" />
 									-
-									<input className="tel_input" />
+									<input className="MyPage_tel_input" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_title">이메일 주소</div>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_title">이메일 주소</div>
 									<div>
-										<input className="email_input" />
+										<input className="MyPage_email_input" />
 									</div>
 								</div>
 							</div>
 						</div>
-						<div className="grade">
-							<div className="table_contents_title">
-								<div className="contents_subject_title">과목</div>
-								<div className="contents_input_title">표준점수</div>
-								<div className="contents_input_title">백분위</div>
-								<div className="contents_input_title">등급</div>
+						<div className="MyPage_grade">
+							<div className="MyPage_table_contents_title">
+								<div className="MyPage_contents_subject_title">과목</div>
+								<div className="MyPage_contents_input_title">표준점수</div>
+								<div className="MyPage_contents_input_title">백분위</div>
+								<div className="MyPage_contents_input_title">등급</div>
 							</div>
-							<div className="grade_table">
-								<div className="table_contents">
-									<div className="contents_subject">국어</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
+							<div className="MyPage_grade_table">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">국어</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_subject">
-										<select className="contents_select">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">
+										<select className="MyPage_contents_select">
 											<option value="" selected disabled>수학 가/나</option>
 											<option value="가">수학 가</option>
 											<option value="나">수학 나</option>
 										</select>
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
-									</div>
-								</div>
-								<div className="table_contents">
-									<div className="contents_subject">영어</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
-									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
-									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_sub_check">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">영어</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+									</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+									</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
+									</div>
+								</div>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_sub_check">
 										<input type="radio" name="subject" value="society" onChange={e => checkSubject(e.target.value)} />
 										<span>사회탐구</span>
 									</div>
-									<div className="contents_sub_check">
+									<div className="MyPage_contents_sub_check">
 										<input type="radio" name="subject" value="science" onChange={e => checkSubject(e.target.value)} />
 										<span>과학탐구</span>
 									</div>
-									<div className="contents_sub_check">
+									<div className="MyPage_contents_sub_check">
 										<input type="radio" name="subject" value="career" onChange={e => checkSubject(e.target.value)} />
 										<span>직업탐구</span>
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_subject">
-										<select className="contents_select">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">
+										<select className="MyPage_contents_select">
 											<option value="" selected disabled>탐구 1</option>
 											{
 												subject === 'society' ?
@@ -161,19 +161,19 @@ const MyPage = ({history}) => {
 											}
 										</select>
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_subject">
-										<select className="contents_select">
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">
+										<select className="MyPage_contents_select">
 											<option value="" selected disabled>탐구 2</option>
 											{
 												subject === 'society' ?
@@ -196,43 +196,43 @@ const MyPage = ({history}) => {
 											}
 										</select>
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
-									</div>
-								</div>
-								<div className="table_contents">
-									<div className="contents_subject">제2외국어</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
-									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
-									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
 									</div>
 								</div>
-								<div className="table_contents">
-									<div className="contents_subject">한국사</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="표준점수 입력" />
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">제2외국어</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="백분위 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
 									</div>
-									<div className="contents_input">
-										<input className="grade_input" placeholder="등급 입력" />
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
+									</div>
+								</div>
+								<div className="MyPage_table_contents">
+									<div className="MyPage_contents_subject">한국사</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+									</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+									</div>
+									<div className="MyPage_contents_input">
+										<input className="MyPage_grade_input" placeholder="등급 입력" />
 									</div>
 								</div>
 							</div>
 						</div>
-						<div className="edit_btn">
+						<div className="MyPage_edit_btn">
 							<button onClick={() => history.push('/info_form')}>수정하기</button>
 						</div>
 					</div>
