@@ -1,16 +1,16 @@
-// import University from './University';
-// import Info from './Info';
-// import Login from './Login';
-// import Bar1 from './Bar1';
-// import MyInfo from './MyInfo';
-// import Prediction from './Prediction';
-import Simulation from './component/main/MyInfo';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Login from './component/main/Login.jsx';
+import Help from './component/main/Help.jsx';
+import MyPage from './component/main/MyPage.jsx';
 
 function App() {
   return (
-    <div>
-      <Simulation/>
-    </div>
+    <Router>
+      <Route exact path="/" component={Login} />
+      <Route path="/help" component={Help} />
+      <Route path="/mypage" component={MyPage} />
+    </Router>
   );
 }
 
