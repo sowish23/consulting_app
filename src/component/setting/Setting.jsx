@@ -19,7 +19,7 @@ const Setting = ({ history }) => {
                     <div className="section">
                         <div className="section_title">앱 설정</div>
                         <div className="section_content">
-                            <div className="content_name">알림 설정</div>
+                            <div className="content_name" onClick={() => history.push('/setting/push')}>알림 설정</div>
                         </div>
                     </div>
                     <div className="section">
