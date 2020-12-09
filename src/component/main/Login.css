@@ -5,22 +5,22 @@
     background-color: #009cc6;
 }
 
-.contents {
+.Login_contents {
     padding-top: 60%;
     text-align: center;
 }
 
-.content_text1 {
+.Login_content_text1 {
     color: #ffffff;
     font-size: 2.0em;
     font-weight: bold;
 }
 
-.content_text2 {
+.Login_content_text2 {
     color: #ffffff;
 }
 
-.kakao_btn {
+.Login_kakao_btn {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -35,6 +35,6 @@
     box-shadow: 0px 6px 6px 1px rgba(0, 0, 0, .2);
 }
 
-.kakao_icon {
+.Login_kakao_icon {
     margin-right: 6px;
 }
