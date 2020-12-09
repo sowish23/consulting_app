@@ -1,7 +1,7 @@
 import React from "react";
 import "./Help.css";
 
-const Help = () => {
+const Help = ({history}) => {
     return (
         <div className="Help_page">
             <div className="Help_content">
@@ -54,7 +54,7 @@ const Help = () => {
 
                 </div>
                 <div className="continue_btn">
-                    <button>서비스 체험하기</button>
+                    <button onClick={() => history.push('/info/create')}>서비스 체험하기</button>
                 </div>
             </div>
         </div>

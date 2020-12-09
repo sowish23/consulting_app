@@ -3,12 +3,7 @@
     height: 100%;
 }
 
-.show_nav {
-    opacity: 0.5;
-}
-
 .Info_content {
-    padding: 60px 0 80px 0;
     background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
 }
