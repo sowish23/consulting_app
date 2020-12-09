@@ -1,5 +1,6 @@
 import React from "react";
 import "./University.css";
+import Pagination from '@material-ui/lab/Pagination';
 
 const University = () => {
 	return (
@@ -119,6 +120,9 @@ const University = () => {
 									</tr>
 								</tbody>
 							</table>
+						</div>
+						<div>
+							<Pagination size="small" count={3} style={{display: 'flex', justifyContent: 'center'}}/>
 						</div>
 					</div>
 				</div>
