@@ -61,7 +61,7 @@ const Prediction = ({history}) => {
 									</table>
 								</div>
 							</div>
-							<div className="section">
+							<div className="section" onClick={() => history.push('/prediction/university')}>
 								<div className="link_title">대학 / 학과별 분석 바로가기</div>
 								<div className="analysis_box">
 									<button className="analysis_btn">대학검색</button>
