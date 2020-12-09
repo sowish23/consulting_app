@@ -3,14 +3,14 @@ import "./Prediction.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const Prediction = () => {
+const Prediction = ({history}) => {
 	return (
 		<div>
 			<Header />
 				<div className="prediction_page">
 					<div className="prediction_content">
 						<div className="prediction_detail">
-							<div className="section">
+							<div className="section" onClick={() => history.push('/prediction/mygrade')}>
 								<div className="link_title">내 성적 분석 바로가기</div>
 								<div className="grade_table">
 									<table>

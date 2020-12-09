@@ -7,6 +7,7 @@ import InfoForm from './component/main/InfoForm.jsx';
 import SchoolGradeForm from './component/main/SchoolGradeForm.jsx';
 
 import Prediction from './component/prediction/Prediction.jsx';
+import MyGrade from './component/prediction/MyGrade.jsx';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Route path="/info_form" component={InfoForm} />
       <Route path="/grade_form" component={SchoolGradeForm} />
 
-      <Route path="/prediction" component={Prediction} />
+      <Route exact path="/prediction" component={Prediction} />
+      <Route path="/prediction/mygrade" component={MyGrade} />
     </Switch>
   );
 }
