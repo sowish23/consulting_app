@@ -1,0 +1,132 @@
+.simulation_page{
+    background-color: #eefbff;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.simulation_content {
+    padding: 60px 0;
+}
+
+.simulation_detail {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.btn_tab {
+    width: 100%;
+    height: 24px;
+}
+
+.complete_btn{
+    float: right;
+    border: 0;
+    border-radius: 10px;
+    padding: 4px 12px;
+    background-color: #70cde5;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.section {
+    margin: 12px 0;
+}
+
+.link_title{
+    color: #009cc6;
+    font-weight: bold;
+}
+
+.result {
+    text-align: center;
+    margin: 12px 0;
+}
+
+.result_table {
+    margin-top: 12px;
+    background-color: #ffffff;
+    padding: 12px 6px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.result_table table {
+    border-collapse: collapse;
+}
+
+.result_table table tbody tr, .result_table table thead tr {
+    border-bottom: 1px solid #C2BEBE;
+}
+
+.result_table table thead tr td {
+    width: 100px;
+    padding : 12px 0;
+}
+
+.result_table table tbody tr td {
+    padding : 12px 0;
+}
+
+.slash {
+    color: #C2BEBE;
+    width: 5%;
+}
+
+.total_tr td{
+    padding: 24px 0 !important;
+}
+
+.result_hr {
+    border-bottom: 1px solid #70cde5;
+    margin: 24px 0;
+}
+
+.result_badge {
+    text-align: center;
+}
+
+.pass_badge {
+    background-color: #009cc6;
+    color: #ffffff;
+    margin: auto;
+    padding: 6px 12px;
+    width: 30%;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.nonpass_badge {
+    background-color: #A2A5A6;
+    color: #ffffff;
+    margin: auto;
+    padding: 6px 12px;
+    width: 30%;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.result_number {
+    margin-top: 12px;
+    padding: 12px 6px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.result_number table {
+    width: 100%;
+}
+
+.result_number table thead tr td {
+    color: #009cc6;
+    border-right: 1px solid #009cc6;
+    width: 25%;
+    padding: 4px 6px;
+}
+
+.result_number table thead tr td:first-child {
+    border-left: 1px solid #009cc6;
+}
