@@ -53,6 +53,9 @@ const Help = () => {
                     </div>
 
                 </div>
+                <div className="continue_btn">
+                    <button>서비스 체험하기</button>
+                </div>
             </div>
         </div>
     );
