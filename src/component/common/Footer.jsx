@@ -37,8 +37,10 @@ const Footer = () => {
                     </NavLink>
                 </li>
                 <li className="nav-btn">
-                    <img src={'/assets/icons/user.svg'} />
-                    <div className="btn_title">설정</div>
+                    <NavLink exact to ='/setting' activeStyle={activeStyle}>
+                        <img src={'/assets/icons/user.svg'} />
+                        <div className="btn_title">설정</div>
+                    </NavLink>
                 </li>
             </ul>
         </div>

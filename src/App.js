@@ -17,6 +17,8 @@ import Consulting from './component/consulting/Consulting.jsx';
 import Simulation from './component/simulation/Simulation.jsx';
 import SimulationResult from './component/simulation/SimulationResult.jsx';
 
+import Setting from './component/setting/Setting.jsx';
+
 function App() {
   return (
     <Switch>
@@ -36,6 +38,8 @@ function App() {
       <Route exact path="/simulation" component={Simulation} />
       {/* result id 값에따라서 가,나,다군 구분할수 있도록 추후에 변경 */}
       <Route path="/simulation/result" component={SimulationResult} />
+
+      <Route path="/setting" component={Setting} />
     </Switch>
   );
 }
