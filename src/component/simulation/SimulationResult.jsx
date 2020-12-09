@@ -3,7 +3,7 @@ import "./SimulationResult.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const SimulationResult = () => {
+const SimulationResult = ({history}) => {
     const type = ["가군", "나군", "다군"]
     return (
         <div>
@@ -14,7 +14,7 @@ const SimulationResult = () => {
                         <div className="section">
                             <div className="link_title">모의 지원 결과 보고</div>
                             <div className="btn_tab">
-                                <button className="complete_btn">◀ 이전으로</button>
+                                <button className="complete_btn" onClick={() => history.push('/simulation')}>◀ 이전으로</button>
                             </div>
                             <div className="result">
                                 <div className="result_title">가군</div>
