@@ -17,7 +17,7 @@ const Info = ({history}) => {
 				<div className="InfoForm_content">
 					<div className="InfoForm_detail">
 						<div className="InfoForm_btn_tab">
-							<button className="InfoForm_complete_btn" onClick={() => history.push('/InfoForm_grade_form')}>완료하기</button>
+							<button className="InfoForm_complete_btn" onClick={() => history.push('/grade_form')}>완료하기</button>
 						</div>
 						<div className="InfoForm_info">
 							<p className="InfoForm_info_title">내 정보 입력</p>
