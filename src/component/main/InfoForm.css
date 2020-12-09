@@ -1,17 +1,20 @@
-.Info_page {
+.InfoForm_page {
     background-color: #EEFBFF;
+    z-index: 1;
+    min-height: 100vh;
     height: 100%;
 }
 
-.Info_content {
+.InfoForm_content {
+    padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.2);
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
-.Info_detail {
+.InfoForm_detail {
     width: 90%;
-    margin: auto;
-    padding: 20px 0;
+    margin: 20px auto;
 }
 
 .btn_tab {

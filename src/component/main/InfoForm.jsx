@@ -3,7 +3,7 @@ import "./InfoForm.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const Info = props => {
+const Info = ({history}) => {
 	const society = ["생활과 윤리", "윤리와 사상", "한국지리", "세계지리", "동아시아사", "세계사", "법과 정치", "경제", "사회·문화"]
 	const science = ["물리1", "화학1", "생명1", "지구과학1", "물리2", "화학2", "생명2", "지구과학2"]
 	const career = []
@@ -13,11 +13,11 @@ const Info = props => {
 	return (
 		<div>
 			<Header />
-			<div className="Info_page">
-				<div className="Info_content">
-					<div className="Info_detail">
+			<div className="InfoForm_page">
+				<div className="InfoForm_content">
+					<div className="InfoForm_detail">
 						<div className="btn_tab">
-							<button className="complete_btn">완료하기</button>
+							<button className="complete_btn" onClick={() => history.push('/grade_form')}>완료하기</button>
 						</div>
 						<div className="info">
 							<p className="info_title">내 정보 입력</p>
@@ -241,9 +241,9 @@ const Info = props => {
 									</div>
 								</div>
 							</div>
-							<div className="grade_input_link">
+							{/* <div className="grade_input_link">
 								<span>내신성적 입력하기</span>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

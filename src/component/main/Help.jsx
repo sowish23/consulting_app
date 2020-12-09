@@ -54,7 +54,7 @@ const Help = ({history}) => {
 
                 </div>
                 <div className="continue_btn">
-                    <button onClick={() => history.push('/info/create')}>서비스 체험하기</button>
+                    <button onClick={() => history.push('/info_form')}>서비스 체험하기</button>
                 </div>
             </div>
         </div>

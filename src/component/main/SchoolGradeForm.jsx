@@ -3,7 +3,7 @@ import "./SchoolGradeForm.css";
 import Footer from '../common/Footer';
 import Header from '../common/Header';
 
-const Info = () => {
+const SchoolGradeForm = ({history}) => {
 	const korean = ["국어", "국어Ⅰ", "국어생활", "문학", "문학Ⅰ", "문학Ⅱ", "문법", "독서", "작문", "화법", "화법과작문Ⅰ", "화법과작문Ⅱ", "독서와문법Ⅰ", "독서와문법Ⅱ"]
 	const math = ["공통수학", "수학", "수학Ⅰ", "수학Ⅱ", "실용수학", "이산수학", "확률과통계", "수학의활용", "미적분과통계기본", "적분과통계", "기하와벡터"]
 	const english = ["공통영어", "영어", "영어Ⅰ", "엉어Ⅱ", "영어독해", "영어작문", "영어회화", "영어독해와작문", "심화영어독해와작문", "실용영어Ⅰ", "실용영어Ⅱ", "실용영어독해와작문"]
@@ -15,10 +15,10 @@ const Info = () => {
 	const subjects = [korean, math, english, society, science, etc]
 	const semester = [[1, 1], [1, 2], [2, 1], [2, 2], [3, 1], [3, 2]]
 	return (
-		<div className="Info_page">
+		<div className="SchoolGradeForm_page">
 			<Header />
-			<div className="Info_content">
-				<div className="Info_detail">
+			<div className="SchoolGradeForm_content">
+				<div className="SchoolGradeForm_detail">
 					<div className="btn_tab">
 						<button className="complete_btn">완료하기</button>
 					</div>
@@ -96,4 +96,4 @@ const Info = () => {
 	);
 };
 
-export default Info;
+export default SchoolGradeForm;
