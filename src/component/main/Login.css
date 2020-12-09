@@ -1,29 +1,23 @@
-
-body{
+.Login_page{
     margin: 0;
     height: 100vh;
     width: 100vw;
     background-color: #009cc6;
 }
 
-
-.title{
-    position: absolute;
+.contents {
+    padding-top: 60%;
     text-align: center;
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
-    top: 33.6%;
-    left: 21.1%;
 }
 
-.sub-title{
-    position: absolute;
-    text-align: center;
-    color: #E5E1E1;
-    font-size: 16px;
-    top: 43.2%;
-    left: 34.5%;
+.content_text1 {
+    color: #ffffff;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+.content_text2 {
+    color: #ffffff;
 }
 
 .kakao_btn {
@@ -43,17 +37,4 @@ body{
 
 .kakao_icon {
     margin-right: 6px;
-}
-
-.p1 {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    color: #593a00;
-}
-
-.p2 {
-    display: inline-block;
-    font-size: 12px;
-    color: #593a00;
 }
