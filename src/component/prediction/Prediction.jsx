@@ -68,7 +68,7 @@ const Prediction = ({history}) => {
 									<button className="analysis_btn">학과검색</button>
 								</div>
 							</div>
-							<div className="section">
+							<div className="section" onClick={() => history.push('/prediction/beneficial')}>
 								<div className="link_title">나에게 유리한 대학 찾기 바로가기</div>
 								<div className="univ_box">
 									<div className="contents_title">계열</div>

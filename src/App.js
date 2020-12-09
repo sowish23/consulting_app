@@ -9,6 +9,8 @@ import SchoolGradeForm from './component/main/SchoolGradeForm.jsx';
 import Prediction from './component/prediction/Prediction.jsx';
 import MyGrade from './component/prediction/MyGrade.jsx';
 import University from './component/prediction/University.jsx';
+import UniversityResult from './component/prediction/UniversityResult.jsx';
+import Beneficial from './component/prediction/Beneficial.jsx';
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Route exact path="/prediction" component={Prediction} />
       <Route path="/prediction/mygrade" component={MyGrade} />
       <Route path="/prediction/university" component={University} />
+      <Route path="/prediction/beneficial" component={Beneficial} />
     </Switch>
   );
 }
