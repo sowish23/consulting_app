@@ -14,43 +14,43 @@
   text-align: center;
 }
 
-.content_title {
+.Help_content_title {
     font-size: 2.0em;
     font-weight: bold;
 }
 
-.content_video {
+.Help_content_video {
   margin: 24px 0;
 }
 
-.video_title {
+.Help_video_title {
   margin-top: 24px;
 }
 
-.content_hr {
+.Help_content_hr {
   border-bottom: 3px solid #70CDE5;
   border-radius: 3px;
   width: 50%;
   margin: 12px auto;
 }
 
-.content_detail {
+.Help_content_detail {
   margin: 24px 0;
   font-size: 0.8em;
   line-height: 150%;
 }
 
-.detail_text {
+.Help_detail_text {
   margin: 24px 0;
 }
 
-.text-title {
+.Help_text-title {
   font-weight: bold;
   font-size: 1.2em;
   margin-bottom: 12px;
 }
 
-.continue_btn button{
+.Help_continue_btn button{
   border: 0;
   padding: 12px;
   border-radius: 24px;
