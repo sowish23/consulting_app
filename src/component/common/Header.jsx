@@ -4,16 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./Header.css";
 import SideNav from "./SideNav"
 
-// [TODO]
 const Header = props => {
-    const {setShowNav} = props
+	const [showNav, setShowNav] = useState(false)
 	return (
         <div className="header">
-            {/* <SideNav show={showNav}/> */}
+            <SideNav show={showNav} setShowNav={setShowNav}/>
             <div className="header_width">
                 <div className="bars" onClick={() => setShowNav(true)}><FontAwesomeIcon icon={faBars} /></div>
                 <div className="title_center">
-                    <div className="title">InG 정시 합격 예측</div>
+                    <div className="header_title">InG 정시 합격 예측</div>
                 </div>
             </div>
         </div>

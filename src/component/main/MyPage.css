@@ -1,18 +1,18 @@
 .Info_page {
     background-color: #EEFBFF;
     z-index: 1;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .Info_content {
-    margin-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 60px;
     height: 100vh;
 }
 
 .Info_detail {
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .btn_tab {
