@@ -14,6 +14,8 @@ import Beneficial from './component/prediction/Beneficial.jsx';
 
 import Consulting from './component/consulting/Consulting.jsx';
 
+import Simulation from './component/simulation/Simulation.jsx';
+
 function App() {
   return (
     <Switch>
@@ -29,6 +31,8 @@ function App() {
       <Route path="/prediction/beneficial" component={Beneficial} />
 
       <Route path="/consulting" component={Consulting} />
+
+      <Route path="/simulation" component={Simulation} />
     </Switch>
   );
 }
