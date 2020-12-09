@@ -3,7 +3,7 @@ import "./Simulation.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const Simulation = () => {
+const Simulation = ({history}) => {
     const type = ["가군", "나군", "다군"]
     return (
         <div>
@@ -84,7 +84,7 @@ const Simulation = () => {
                                                 </table>
                                             </div>
                                             <div className="apply_btn">
-                                                <button>모의 지원 결과 보러 가기</button>
+                                                <button onClick={() => history.push('/simulation/result')}>모의 지원 결과 보러 가기</button>
                                             </div>
                                         </div>
                                     )
