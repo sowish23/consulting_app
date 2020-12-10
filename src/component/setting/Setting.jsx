@@ -33,9 +33,11 @@ const Setting = ({ history }) => {
                             </div>
                             <div className="Setting_content_name">문의하기</div>
                             <div className="Setting_content_name_additional">
-                                <div className="Setting_content_name">대표 ) 강준호</div>
-                                <div className="Setting_content_name">사업자 등록번호 ) 123123123 </div>
-                                <div className="Setting_content_name">이메일 ) test@gmail.com </div>
+                                <div className="Setting_content_name">사업체명 ) 코딱지닷컴</div>
+                                <div className="Setting_content_name">대표자 ) 강준호</div>
+                                <div className="Setting_content_name">사업자 등록번호 ) 127-56-00490 </div>
+                                <div className="Setting_content_name">위치 ) 대치동 906-23 만수빌딩 502 </div>
+                                <div className="Setting_content_name">이메일 ) ingconsulting@naver.com </div>
                             </div>
                         </div>
                     </div>
