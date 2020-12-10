@@ -1,57 +1,57 @@
-.simulation_page{
+.Simulation_page{
     background-color: #eefbff;
     height: 100%;
 }
 
-.simulation_content {
+.Simulation_content {
     padding: 60px 0;
 }
 
-.simulation_detail {
+.Simulation_detail {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
 }
 
-.section {
+.Simulation_section {
     margin: 12px 0;
 }
 
-.section_hr {
+.Simulation_section_hr {
     margin: 24px 0;
     border-bottom: 1px solid #70CDE5;
 }
 
-.link_title{
+.Simulation_link_title{
     color: #009cc6;
     font-weight: bold;
 }
 
-.univ_box {
+.Simulation_univ_box {
     margin-top: 24px;
     background-color: #ffffff;
     border-radius: 6px;
     padding: 12px;
 }
 
-.box_content {
+.Simulation_box_content {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #C2BEBE;
     padding: 6px 0;
 }
 
-.box_content:last-child {
+.Simulation_box_content:last-child {
     border: 0;
 }
 
-.contents_title {
+.Simulation_contents_title {
     width: 30%;
     vertical-align: middle;
     font-size: 0.9em;
 }
 
-.relation_btn{
+.Simulation_relation_btn{
     margin-right: 6px;
     background-color: #ffffff;
     border: 1px solid #707070;
@@ -61,33 +61,33 @@
     padding: 2px 12px;
 }
 
-.contents_radio {
+.Simulation_contents_radio {
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
 
-.contents_radio > input {
+.Simulation_contents_radio > input {
     display: none;
 }
 
-.contents_radio input:checked + label {
+.Simulation_contents_radio input:checked + label {
     background-color: #70cde5;
 }
 
-.contents_input {
+.Simulation_contents_input {
     width: 60%;
 }
 
-.apply_type {
+.Simulation_apply_type {
     margin: 12px 0;
 }
 
-.type_title {
+.Simulation_type_title {
     font-weight: bold;
 }
 
-.apply_table {
+.Simulation_apply_table {
     margin-top: 12px;
     background-color: #ffffff;
     padding: 12px 6px;
@@ -97,28 +97,28 @@
     width: 95%;
 }
 
-.apply_table table thead tr td {
+.Simulation_apply_table table thead tr td {
     border-right: 1px solid #C2BEBE;
     width: 100px;
     padding : 0 12px;
     word-break: keep-all;
 }
 
-.apply_table table tbody tr td {
+.Simulation_apply_table table tbody tr td {
     word-break: keep-all;
     padding : 6px 12px;
 }
 
-.apply_table table thead tr td:last-child {
+.Simulation_apply_table table thead tr td:last-child {
     border-right: 0;
 }
 
-.apply_btn {
+.Simulation_apply_btn {
     width: 70%;
     margin: 12px auto;
 }
 
-.apply_btn button {
+.Simulation_apply_btn button {
     width: 100%;
     border: 0;
     background-color: #70cde5;

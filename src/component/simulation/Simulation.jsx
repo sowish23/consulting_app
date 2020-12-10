@@ -8,10 +8,10 @@ const Simulation = ({history}) => {
     return (
         <div>
             <Header />
-            <div className="simulation_page">
-                <div className="simulation_content">
-                    <div className="simulation_detail">
-                        {/* <div className="section">
+            <div className="Simulation_page">
+                <div className="Simulation_content">
+                    <div className="Simulation_detail">
+                        {/* <div className="Simulation_section">
 						<div className="univ_box">
                             <div className="box_content">
                                 <div className="contents_title">계열</div>
@@ -40,14 +40,14 @@ const Simulation = ({history}) => {
 					</div>
                     <div className="section_hr">
                     </div> */}
-                        <div className="section">
-                            <div className="link_title">모의 지원 입력</div>
+                        <div className="Simulation_section">
+                            <div className="Simulation_link_title">모의 지원 입력</div>
                             {
                                 type.map(e => {
                                     return (
-                                        <div className="apply_type">
-                                            <div className="type_title">{e}</div>
-                                            <div className="apply_table">
+                                        <div className="Simulation_apply_type">
+                                            <div className="Simulation_type_title">{e}</div>
+                                            <div className="Simulation_apply_table">
                                                 <table>
                                                     <thead>
                                                         <tr>
@@ -83,7 +83,7 @@ const Simulation = ({history}) => {
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <div className="apply_btn">
+                                            <div className="Simulation_apply_btn">
                                                 <button onClick={() => history.push('/simulation/result')}>모의 지원 결과 보러 가기</button>
                                             </div>
                                         </div>
