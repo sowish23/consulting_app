@@ -8,8 +8,11 @@ const Help = ({history}) => {
                 <div className="Help_content_title">InG 정시 합격 예측</div>
                 <div className="Help_content_subtitle">대입 정시 컨설팅</div>
                 <div className="Help_content_video">
-                    <div>
-                    {/* <video /> */}
+                    <div className="Help_video">
+                        <video autoplay controls loop muted>
+                            <source src="/assets/video/최종본.mp4" type="video/mp4" />
+                            해당 브라우저는 동영상 재생을 지원하지 않습니다.
+                        </video>
                     </div>
                     <div className="Help_video_title">
                         <p className="Help_video-text">입시 빅데이터를 기반으로 한</p>

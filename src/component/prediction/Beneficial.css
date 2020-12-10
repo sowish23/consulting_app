@@ -23,6 +23,16 @@
     font-weight: bold;
 }
 
+.Beneficial_video {
+  margin: 24px auto;
+  width: 100%;
+}
+
+.Beneficial_video video{
+  width: 100%;
+}
+
+
 .Beneficial_result {
     text-align: center;
     margin: 12px 0;

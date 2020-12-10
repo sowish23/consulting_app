@@ -19,6 +19,16 @@
     font-weight: bold;
 }
 
+.Help_video {
+  margin: auto;
+  width: 100%;
+
+}
+
+.Help_video video{
+  width: 100%;
+}
+
 .Help_content_video {
   margin: 24px 0;
 }

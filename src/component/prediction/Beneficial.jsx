@@ -14,6 +14,12 @@ const Beneficial = () => {
                     <div className="Beneficial_simulation_detail">
                         <div className="Beneficial_section">
                             <div className="Beneficial_link_title">나에게 유리한 대학 찾기</div>
+                            <div className="Beneficial_video">
+                                <video autoplay controls loop muted>
+                                    <source src="/assets/video/최종본.mp4" type="video/mp4" />
+                                    해당 브라우저는 동영상 재생을 지원하지 않습니다.
+                                </video>
+                            </div>
                             <div className="Beneficial_result_hr"></div>
                             <div className="Beneficial_result">
                                 <div className="Beneficial_result_title">지원 희망 대학 입력</div>
