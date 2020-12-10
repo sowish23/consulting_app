@@ -1,4 +1,5 @@
 import { Route, Switch } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 import Login from './component/main/Login.jsx';
 import Help from './component/main/Help.jsx';
@@ -22,28 +23,31 @@ import SettingAlarm from './component/setting/SettingAlarm.jsx';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={Login} />
-      <Route path="/help" component={Help} />
-      <Route path="/mypage" component={MyPage} />
-      <Route path="/info_form" component={InfoForm} />
-      <Route path="/grade_form" component={SchoolGradeForm} />
+    <div>
+      <ScrollToTop/>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route path="/help" component={Help} />
+        <Route path="/mypage" component={MyPage} />
+        <Route path="/info_form" component={InfoForm} />
+        <Route path="/grade_form" component={SchoolGradeForm} />
 
-      <Route exact path="/prediction" component={Prediction} />
-      <Route path="/prediction/mygrade" component={MyGrade} />
-      <Route exact path="/prediction/university" component={University} />
-      <Route path="/prediction/university/result" component={UniversityResult} />
-      <Route path="/prediction/beneficial" component={Beneficial} />
+        <Route exact path="/prediction" component={Prediction} />
+        <Route path="/prediction/mygrade" component={MyGrade} />
+        <Route exact path="/prediction/university" component={University} />
+        <Route path="/prediction/university/result" component={UniversityResult} />
+        <Route path="/prediction/beneficial" component={Beneficial} />
 
-      <Route path="/consulting" component={Consulting} />
+        <Route path="/consulting" component={Consulting} />
 
-      <Route exact path="/simulation" component={Simulation} />
-      {/* result id 값에따라서 가,나,다군 구분할수 있도록 추후에 변경 */}
-      <Route path="/simulation/result" component={SimulationResult} />
+        <Route exact path="/simulation" component={Simulation} />
+        {/* result id 값에따라서 가,나,다군 구분할수 있도록 추후에 변경 */}
+        <Route path="/simulation/result" component={SimulationResult} />
 
-      <Route exact path="/setting" component={Setting} />
-      <Route path="/setting/push" component={SettingAlarm} />
-    </Switch>
+        <Route exact path="/setting" component={Setting} />
+        <Route path="/setting/push" component={SettingAlarm} />
+      </Switch>
+    </div>
   );
 }
 
