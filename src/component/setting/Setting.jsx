@@ -12,6 +12,8 @@ const Setting = ({ history }) => {
                     <div className="Setting_section">
                         <div className="Setting_section_title">계정</div>
                         <div className="Setting_section_content">
+                            <div className="Setting_content_name">회원 정보 수정</div>
+                            <div className="Setting_content_name" onClick={() => history.push('/mypage')}>내 성적 수정</div>
                             <div className="Setting_content_name">회원탈퇴</div>
                             <div className="Setting_content_name">로그아웃</div>
                         </div>
