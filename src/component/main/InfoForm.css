@@ -6,7 +6,7 @@
 }
 
 .InfoForm_content {
-    padding-top: 60px;
+    padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.2);
     min-height: 100vh;
     height: 100%;
