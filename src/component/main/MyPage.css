@@ -131,6 +131,7 @@
 }
 
 .MyPage_contents_input {
+    text-align: center;
     width: 25%;
     height: 20px;
     margin: 0 6px;

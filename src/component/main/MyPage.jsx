@@ -24,53 +24,35 @@ const MyPage = ({history}) => {
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">수험생 이름</div>
 									<div>
-										<input className="MyPage_name_input" />
+										김수능
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">수험생과의 관계</div>
 									<div className="MyPage_contents_radio">
-										<input id="본인" type="radio" name="relation" />
-										<label className="MyPage_relation_btn" for="본인">본인</label>
-										<input id="학생모" type="radio" name="relation" />
-										<label className="MyPage_relation_btn" for="학생모">학생모</label>
-										<input id="학생부" type="radio" name="relation" />
-										<label className="MyPage_relation_btn" for="학생부">학생부</label>
+										본인
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">학년</div>
 									<div className="MyPage_contents_radio">
-										<input id="고1" type="radio" name="MyPage_grade" />
-										<label className="MyPage_relation_btn" for="고1">고1</label>
-										<input id="고2" type="radio" name="MyPage_grade" />
-										<label className="MyPage_relation_btn" for="고2">고2</label>
-										<input id="고3" type="radio" name="MyPage_grade" />
-										<label className="MyPage_relation_btn" for="고3">고3</label>
-										<input id="N수" type="radio" name="MyPage_grade" />
-										<label className="MyPage_relation_btn" for="N수">N수</label>
+										고3
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">출신 고교</div>
-									<div>
-										<input className="MyPage_name_input" />
-									</div>
+									<div>정시고등학교</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">핸드폰 번호</div>
 									<div>
-										<input className="MyPage_tel_input" />
-									-
-									<input className="MyPage_tel_input" />
-									-
-									<input className="MyPage_tel_input" />
+										010-1111-2222
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_title">이메일 주소</div>
 									<div>
-										<input className="MyPage_email_input" />
+										test@gmail.com
 									</div>
 								</div>
 							</div>
@@ -86,151 +68,105 @@ const MyPage = ({history}) => {
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">국어</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">
-										<select className="MyPage_contents_select">
-											<option value="" selected disabled>수학 가/나</option>
-											<option value="가">수학 가</option>
-											<option value="나">수학 나</option>
-										</select>
+										수학 가
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">영어</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_sub_check">
-										<input type="radio" name="subject" value="society" onChange={e => checkSubject(e.target.value)} />
+										<input type="radio" name="subject" value="society" onChange={e => checkSubject(e.target.value)} checked/>
 										<span>사회탐구</span>
 									</div>
 									<div className="MyPage_contents_sub_check">
-										<input type="radio" name="subject" value="science" onChange={e => checkSubject(e.target.value)} />
+										<input type="radio" name="subject" value="science" onChange={e => checkSubject(e.target.value)} disabled/>
 										<span>과학탐구</span>
 									</div>
 									<div className="MyPage_contents_sub_check">
-										<input type="radio" name="subject" value="career" onChange={e => checkSubject(e.target.value)} />
+										<input type="radio" name="subject" value="career" onChange={e => checkSubject(e.target.value)} disabled/>
 										<span>직업탐구</span>
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">
-										<select className="MyPage_contents_select">
-											<option value="" selected disabled>탐구 1</option>
-											{
-												subject === 'society' ?
-													society.map(e => {
-														return (
-															<option value={e}>{e}</option>
-														)
-													}) :
-													subject === 'science' ?
-														science.map(e => {
-															return (
-																<option value={e}>{e}</option>
-															)
-														}) :
-														career.map(e => {
-															return (
-																<option value={e}>{e}</option>
-															)
-														})
-											}
-										</select>
+										법과 정치
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">
-										<select className="MyPage_contents_select">
-											<option value="" selected disabled>탐구 2</option>
-											{
-												subject === 'society' ?
-													society.map(e => {
-														return (
-															<option value={e}>{e}</option>
-														)
-													}) :
-													subject === 'science' ?
-														science.map(e => {
-															return (
-																<option value={e}>{e}</option>
-															)
-														}) :
-														career.map(e => {
-															return (
-																<option value={e}>{e}</option>
-															)
-														})
-											}
-										</select>
+										생활과 윤리
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">제2외국어</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 								<div className="MyPage_table_contents">
 									<div className="MyPage_contents_subject">한국사</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="표준점수 입력" />
+										100
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="백분위 입력" />
+										92
 									</div>
 									<div className="MyPage_contents_input">
-										<input className="MyPage_grade_input" placeholder="등급 입력" />
+										2
 									</div>
 								</div>
 							</div>
