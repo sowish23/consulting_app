@@ -7,12 +7,12 @@ const Prediction = ({history}) => {
 	return (
 		<div>
 			<Header />
-				<div className="prediction_page">
-					<div className="prediction_content">
-						<div className="prediction_detail">
-							<div className="section" onClick={() => history.push('/prediction/mygrade')}>
-								<div className="link_title">내 성적 분석 바로가기</div>
-								<div className="grade_table">
+				<div className="Prediction_page">
+					<div className="Prediction_content">
+						<div className="Prediction_detail">
+							<div className="Prediction_section" onClick={() => history.push('/prediction/mygrade')}>
+								<div className="Prediction_link_title">내 성적 분석 바로가기</div>
+								<div className="Prediction_grade_table">
 									<table>
 										<tbody>
 											<tr>
@@ -61,24 +61,24 @@ const Prediction = ({history}) => {
 									</table>
 								</div>
 							</div>
-							<div className="section" onClick={() => history.push('/prediction/university')}>
-								<div className="link_title">대학 / 학과별 분석 바로가기</div>
-								<div className="analysis_box">
-									<button className="analysis_btn">대학검색</button>
-									<button className="analysis_btn">학과검색</button>
+							<div className="Prediction_section" onClick={() => history.push('/prediction/university')}>
+								<div className="Prediction_link_title">대학 / 학과별 분석 바로가기</div>
+								<div className="Prediction_analysis_box">
+									<button className="Prediction_analysis_btn">대학검색</button>
+									<button className="Prediction_analysis_btn">학과검색</button>
 								</div>
 							</div>
-							<div className="section" onClick={() => history.push('/prediction/beneficial')}>
-								<div className="link_title">나에게 유리한 대학 찾기 바로가기</div>
-								<div className="univ_box">
-									<div className="contents_title">계열</div>
-									<div className="contents_radio">
+							<div className="Prediction_section" onClick={() => history.push('/prediction/beneficial')}>
+								<div className="Prediction_link_title">나에게 유리한 대학 찾기 바로가기</div>
+								<div className="Prediction_univ_box">
+									<div className="Prediction_contents_title">계열</div>
+									<div className="Prediction_contents_radio">
 										<input id="가군" type="radio" name="relation"/>
-										<label className="relation_btn" for="가군">가군</label>
+										<label className="Prediction_relation_btn" for="가군">가군</label>
 										<input id="나군" type="radio" name="relation"/>
-										<label className="relation_btn" for="나군">나군</label>
+										<label className="Prediction_relation_btn" for="나군">나군</label>
 										<input id="다군" type="radio" name="relation"/>
-										<label className="relation_btn" for="다군">다군</label>
+										<label className="Prediction_relation_btn" for="다군">다군</label>
 									</div>
 								</div>
 							</div>

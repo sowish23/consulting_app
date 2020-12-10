@@ -1,55 +1,55 @@
-.prediction_page{
+.Prediction_page{
     background-color: #eefbff;
     height: 100vh;
 }
 
-.prediction_content {
+.Prediction_content {
     padding: 60px 0;
 }
 
-.prediction_detail {
+.Prediction_detail {
     width: 90%;
     margin: auto;
     padding: 20px 0;
 }
 
-.section {
+.Prediction_section {
     margin: 6px 0;
 }
 
-.link_title{
+.Prediction_link_title{
     color: #009cc6;
     font-weight: bold;
 }
 
-.grade_table{
+.Prediction_grade_table{
     margin: 12px 0;
     padding: 12px;
     background-color: white;
     border-radius: 6px;
 }
 
-.grade_table table {
+.Prediction_grade_table table {
     text-align: center;
     width: 100%;
     border-collapse: collapse;
 }
 
-.grade_table table tbody tr{
+.Prediction_grade_table table tbody tr{
     border-bottom: 1px solid #C2BEBE;
     font-size: 12px;
     text-align: center;
 }
 
-.grade_table table tbody tr:last-child{
+.Prediction_grade_table table tbody tr:last-child{
     border-bottom: 0
 }
 
-.grade_table table tbody tr td{
+.Prediction_grade_table table tbody tr td{
     padding: 6px;
 }
 
-.analysis_box, .univ_box {
+.Prediction_analysis_box, .Prediction_univ_box {
     margin: 12px 0;
     background-color: #ffffff;
     border-radius: 6px;
@@ -58,7 +58,7 @@
     justify-content: center;
 }
 
-.analysis_btn {
+.Prediction_analysis_btn {
     background-color: #ffffff;
     border: 1px solid #505050;
     border-radius: 6px;
@@ -67,13 +67,13 @@
     width: 40%;
 }
 
-.contents_title {
+.Prediction_contents_title {
     width: 30%;
     vertical-align: middle;
     font-size: 0.9em;
 }
 
-.relation_btn{
+.Prediction_relation_btn{
     margin-right: 6px;
     background-color: #ffffff;
     border: 1px solid #707070;
@@ -83,16 +83,16 @@
     padding: 2px 12px;
 }
 
-.contents_radio {
+.Prediction_contents_radio {
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
 
-.contents_radio > input {
+.Prediction_contents_radio > input {
     display: none;
 }
 
-.contents_radio input:checked + label {
+.Prediction_contents_radio input:checked + label {
     background-color: #70cde5;
 }
