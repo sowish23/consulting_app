@@ -1,44 +1,44 @@
-.simulation_page{
+.Beneficial_simulation_page{
     background-color: #eefbff;
     height: 100%;
     min-height: 100vh;
 }
 
-.simulation_content {
+.Beneficial_simulation_content {
     padding: 60px 0;
 }
 
-.simulation_detail {
+.Beneficial_simulation_detail {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
 }
 
-.section {
+.Beneficial_section {
     margin: 12px 0;
 }
 
-.link_title{
+.Beneficial_link_title{
     color: #009cc6;
     font-weight: bold;
 }
 
-.result {
+.Beneficial_result {
     text-align: center;
     margin: 12px 0;
 }
 
-.result_title {
+.Beneficial_result_title {
     text-align: left;
 }
 
-.result_subtitle {
+.Beneficial_result_subtitle {
     margin-top: 12px;
     text-align: left;
     font-size: 0.9em;
 }
 
-.result_table {
+.Beneficial_result_table {
     margin-top: 12px;
     background-color: #ffffff;
     padding: 12px 6px;
@@ -48,23 +48,23 @@
     width: 95%;
 }
 
-.result_table table thead tr td {
+.Beneficial_result_table table thead tr td {
     border-right: 1px solid #C2BEBE;
     width: 100px;
     padding : 0 12px;
     word-break: keep-all;
 }
 
-.result_table table tbody tr td {
+.Beneficial_result_table table tbody tr td {
     word-break: keep-all;
     padding : 6px 12px;
 }
 
-.result_table table thead tr td:last-child {
+.Beneficial_result_table table thead tr td:last-child {
     border-right: 0;
 }
 
-.result_hr {
+.Beneficial_result_hr {
     border-bottom: 1px solid #70cde5;
     margin: 24px 0;
 }

@@ -9,20 +9,20 @@ const Beneficial = () => {
     return (
         <div>
             <Header />
-            <div className="simulation_page">
-                <div className="simulation_content">
-                    <div className="simulation_detail">
-                        <div className="section">
-                            <div className="link_title">나에게 유리한 대학 찾기</div>
-                            <div className="result_hr"></div>
-                            <div className="result">
-                                <div className="result_title">지원 희망 대학 입력</div>
+            <div className=".Beneficial_simulation_page">
+                <div className=".Beneficial_simulation_content">
+                    <div className=".Beneficial_simulation_detail">
+                        <div className=".Beneficial_section">
+                            <div className=".Beneficial_link_title">나에게 유리한 대학 찾기</div>
+                            <div className=".Beneficial_result_hr"></div>
+                            <div className=".Beneficial_result">
+                                <div className=".Beneficial_result_title">지원 희망 대학 입력</div>
                                 {
                                     type.map(e => {
                                         return (
                                             <div>
-                                                <div className="result_subtitle">{e}</div>
-                                                <div className="result_table">
+                                                <div className=".Beneficial_result_subtitle">{e}</div>
+                                                <div className=".Beneficial_result_table">
                                                     <table>
                                                         <thead>
                                                             <tr>
