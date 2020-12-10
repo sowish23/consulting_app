@@ -1,61 +1,61 @@
-.prediction_page{
+.University_page{
     background-color: #eefbff;
     min-height: 100vh;
     height: 100%;
 }
 
-.prediction_content {
+.University_content {
     padding: 60px 0;
 }
 
-.prediction_detail {
+.University_detail {
     width: 90%;
     margin: auto;
     padding: 20px 0;
 }
 
-.section {
+.University_section {
     margin: 6px 0;
 }
 
-.link_title{
+.University_link_title{
     color: #009cc6;
     font-weight: bold;
 }
 
-.grade_table{
+.University_grade_table{
     margin: 12px 0;
     padding: 12px;
     background-color: white;
     border-radius: 6px;
 }
 
-.grade_table table {
+.University_grade_table table {
     text-align: center;
     width: 100%;
     border-collapse: collapse;
 }
 
-.grade_table table tbody tr, .grade_table table thead tr{
+.University_grade_table table tbody tr, .University_grade_table table thead tr{
     border-bottom: 1px solid #C2BEBE;
     font-size: 12px;
     text-align: center;
 }
 
-.grade_table table tbody tr td{
+.University_grade_table table tbody tr td{
     padding: 12px;
 }
 
-.grade_table table thead tr td{
+.University_grade_table table thead tr td{
     padding: 6px 0 ;
     border-right: 1px solid #C2BEBE;
 }
 
-.grade_table table thead tr td:last-child{
+.University_grade_table table thead tr td:last-child{
     border-right: 0;
 }
 
-.btn_td button{
+.University_btn_td button{
     border: 0;
     background-color: #70cde5;
     color: #ffffff;
@@ -63,21 +63,21 @@
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 }
 
-.contents_radio {
+.University_contents_radio {
     margin: 12px 0 ;
     display: flex;
     justify-content: space-between;
 }
 
-.contents_radio > input {
+.University_contents_radio > input {
     display: none;
 }
 
-.contents_radio input:checked + label {
+.University_contents_radio input:checked + label {
     background-color: #70cde5;
 }
 
-.relation_btn{
+.University_relation_btn{
     display: inline-block;
     text-align: center;
     width: 42%;
@@ -88,39 +88,39 @@
     padding: 6px;
 }
 
-.relation_btn:last-child {
+.University_relation_btn:last-child {
     margin: 0;
 }
 
-.select_box {
+.University_select_box {
     display: flex;
 }
 
-.select_region {
+.University_select_region {
     width: 40%;
     margin-right: 5%;
 }
 
-.select_sort {
+.University_select_sort {
     width: 25%;
     margin-right: 5%;
 }
 
-.select_apply_type {
+.University_select_apply_type {
     width: 25%;
 }
 
-.select_region select, .select_sort select, .select_apply_type select {
+.University_select_region select, .University_select_sort select, .University_select_apply_type select {
     width: 100%;
     padding: 6px;
 }
 
-.search_btn {
+.University_search_btn {
     margin: 24px 0;
     text-align: center;
 }
 
-.search_btn button {
+.University_search_btn button {
     width: 20%;
     background-color: #ffffff;
     border: 1px solid #505050;
@@ -129,7 +129,7 @@
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 }
 
-.result_graph{
+.University_result_graph{
     margin: 12px 0;
     padding: 18px 12px 30px 12px;
     background-color: white;
@@ -137,30 +137,30 @@
     font-size: 0.8em;
 }
 
-.result_graph table {
+.University_result_graph table {
     text-align: center;
     width: 100%;
     border-collapse: collapse;
 }
 
-.graph_td {
+.University_graph_td {
     width: 80%;
 }
 
-.result_graph table tbody tr, .result_graph table thead tr{
+.University_result_graph table tbody tr, .University_result_graph table thead tr{
     border-bottom: 1px solid #C2BEBE;
     font-size: 12px;
     text-align: center;
 }
 
-.title_td {
+.University_title_td {
     border-right: 1px solid #C2BEBE;
 }
 
-.result_graph table thead tr td{
+.University_result_graph table thead tr td{
     padding: 6px 0 ;
 }
 
-.result_graph table tbody tr td{
+.University_result_graph table tbody tr td{
     padding: 18px 0;
 }
