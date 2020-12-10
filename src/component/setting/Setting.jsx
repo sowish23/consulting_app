@@ -32,6 +32,11 @@ const Setting = ({ history }) => {
                                 <div>1.0 v</div>
                             </div>
                             <div className="Setting_content_name">문의하기</div>
+                            <div className="Setting_content_name_additional">
+                                <div className="Setting_content_name">대표 ) 강준호</div>
+                                <div className="Setting_content_name">사업자 등록번호 ) 123123123 </div>
+                                <div className="Setting_content_name">이메일 ) test@gmail.com </div>
+                            </div>
                         </div>
                     </div>
                 </div>

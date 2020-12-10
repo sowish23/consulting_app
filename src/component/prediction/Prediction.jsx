@@ -17,9 +17,9 @@ const Prediction = ({history}) => {
 										<tbody>
 											<tr>
 												<th>과목</th>
-												<th>원점수</th>
-												<th>백분위</th>
 												<th>표점</th>
+												<th>백분위</th>
+												<th>등급</th>
 											</tr>
 											<tr>
 												<td>국어</td>

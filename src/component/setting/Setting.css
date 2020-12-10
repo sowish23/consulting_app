@@ -39,3 +39,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.Setting_content_name_additional {
+    border-top: 1px solid lightgrey;
+    font-size: 0.8em;
+    color: grey;
+}

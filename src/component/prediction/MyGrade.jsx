@@ -17,9 +17,9 @@ const MyGrade = () => {
 									<tbody>
 										<tr>
 											<th>과목</th>
-											<th>원점수</th>
-											<th>백분위</th>
 											<th>표점</th>
+											<th>백분위</th>
+											<th>등급</th>
 										</tr>
 										<tr>
 											<td>국어</td>
@@ -68,11 +68,12 @@ const MyGrade = () => {
 							</div>
 						</div>
 						<div className="MyGrade_section">
-							<div className="MyGrade_link_title">대학 / 학과별 분석 바로가기</div>
+							<div className="MyGrade_link_title">조합별 점수</div>
 							<div className="MyGrade_grade_table">
 								<div className="MyGrade_sort_tap">
 									<select>
-										<option selected>점수별</option>
+										<option selected>표준점수</option>
+										<option>백분위</option>
 									</select>
 								</div>
 								<table>
