@@ -8,17 +8,17 @@ const SimulationResult = ({history}) => {
     return (
         <div>
             <Header />
-            <div className="simulation_page">
-                <div className="simulation_content">
-                    <div className="simulation_detail">
-                        <div className="section">
-                            <div className="link_title">모의 지원 결과 보고</div>
-                            <div className="btn_tab">
-                                <button className="complete_btn" onClick={() => history.push('/simulation')}>◀ 이전으로</button>
+            <div className="SimulationResult_page">
+                <div className="SimulationResult_content">
+                    <div className="SimulationResult_detail">
+                        <div className="SimulationResult_section">
+                            <div className="SimulationResult_link_title">모의 지원 결과 보고</div>
+                            <div className="SimulationResult_btn_tab">
+                                <button className="SimulationResult_complete_btn" onClick={() => history.push('/simulation')}>◀ 이전으로</button>
                             </div>
-                            <div className="result">
-                                <div className="result_title">가군</div>
-                                <div className="result_table">
+                            <div className="SimulationResult_result">
+                                <div className="SimulationResult_result_title">가군</div>
+                                <div className="SimulationResult_result_table">
                                     <table>
                                         <thead>
                                             <tr>
@@ -48,18 +48,18 @@ const SimulationResult = ({history}) => {
                                         </tbody>
                                     </table>
                                 </div>
-                                <div className="result_hr"></div>
-                                <div className="result_detail">
-                                    <div className="detail_content">
-                                        <div className="detail_title">정원 </div>
+                                <div className="SimulationResult_result_hr"></div>
+                                <div className="SimulationResult_result_detail">
+                                    <div className="SimulationResult_detail_content">
+                                        <div className="SimulationResult_detail_title">정원 </div>
                                         <div><span>4900</span> 명</div>
                                     </div>
-                                    <div className="detail_content">
-                                        <div className="detail_title">지원자 </div>
+                                    <div className="SimulationResult_detail_content">
+                                        <div className="SimulationResult_detail_title">지원자 </div>
                                         <div><span>4900</span> 명</div>
                                     </div>
-                                    <div className="detail_content">
-                                        <div className="detail_title">나의 등수 </div>
+                                    <div className="SimulationResult_detail_content">
+                                        <div className="SimulationResult_detail_title">나의 등수 </div>
                                         <div><span>4900</span> 등</div>
                                     </div>
                                 </div>
