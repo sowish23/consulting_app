@@ -1,0 +1,38 @@
+.Home_page{
+    background-color: #eefbff;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.Home_content {
+    padding: 80px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.Home_list_btns {
+    display: flex;
+    justify-content: center;
+}
+
+.Home_list_btn {
+    margin: 12px;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.Home_list_btn_none {
+    background-color: #eefbff;
+}
+
+.Home_list_btns img {
+    width: 64px;
+}
+
+.Home_list_btn_title {
+    margin-top: 12px;
+}

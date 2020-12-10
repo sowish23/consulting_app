@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="Footer_nav">
             <ul className="Footer_nav_list">
                 <li className="Footer_nav_btn">
-                    <NavLink exact to ='/help' activeStyle={activeStyle}>
+                    <NavLink exact to ='/home' activeStyle={activeStyle}>
                         <img src={'/assets/icons/home.svg'} />
                         <div className="Footer_btn_title">홈</div>
                     </NavLink>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <li className="Footer_nav_btn">
                     <NavLink exact to ='/consulting' activeStyle={activeStyle}>
                         <img src={'/assets/icons/debate.svg'} />
-                        <div className="Footer_btn_title">컨설팅</div>
+                        <div className="Footer_btn_title">맞춤 입시 정보</div>
                     </NavLink>
                 </li>
                 <li className="Footer_nav_btn">
