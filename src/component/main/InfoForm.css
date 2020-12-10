@@ -18,10 +18,12 @@
 }
 
 .InfoForm_btn_tab {
-    float: right;
+    margin-top: 12px;
+    width: 100%;
 }
 
 .InfoForm_complete_btn{
+    width: 100%;
     border: 0;
     border-radius: 10px;
     padding: 4px 12px;
