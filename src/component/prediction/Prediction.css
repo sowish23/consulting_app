@@ -58,6 +58,10 @@
     justify-content: center;
 }
 
+.Prediction_univ_box {
+    font-size: 0.8em;
+}
+
 .Prediction_analysis_btn {
     background-color: #ffffff;
     border: 1px solid #505050;

@@ -71,15 +71,7 @@ const Prediction = ({history}) => {
 							<div className="Prediction_section" onClick={() => history.push('/prediction/beneficial')}>
 								<div className="Prediction_link_title">나에게 유리한 대학 찾기 바로가기</div>
 								<div className="Prediction_univ_box">
-									<div className="Prediction_contents_title">계열</div>
-									<div className="Prediction_contents_radio">
-										<input id="가군" type="radio" name="relation"/>
-										<label className="Prediction_relation_btn" for="가군">가군</label>
-										<input id="나군" type="radio" name="relation"/>
-										<label className="Prediction_relation_btn" for="나군">나군</label>
-										<input id="다군" type="radio" name="relation"/>
-										<label className="Prediction_relation_btn" for="다군">다군</label>
-									</div>
+									대학별 유블리 지수 확인하기 (특허 출원)  ▶
 								</div>
 							</div>
 						</div>
