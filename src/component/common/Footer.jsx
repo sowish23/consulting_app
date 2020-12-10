@@ -10,36 +10,36 @@ const Footer = () => {
         color: '#70cde5'
     }
 	return (
-        <div className="nav">
-            <ul className="nav-list">
-                <li className="nav-btn">
+        <div className="Footer_nav">
+            <ul className="Footer_nav_list">
+                <li className="Footer_nav_btn">
                     <NavLink exact to ='/help' activeStyle={activeStyle}>
                         <img src={'/assets/icons/home.svg'} />
-                        <div className="btn_title">홈</div>
+                        <div className="Footer_btn_title">홈</div>
                     </NavLink>
                 </li>
-                <li className="nav-btn">
+                <li className="Footer_nav_btn">
                     <NavLink exact to ='/prediction' activeStyle={activeStyle}>
                         <img src={'/assets/icons/darts.svg'} />
-                        <div className="btn_title">합격 예측</div>
+                        <div className="Footer_btn_title">합격 예측</div>
                     </NavLink>
                 </li>
-                <li className="nav-btn">
+                <li className="Footer_nav_btn">
                     <NavLink exact to ='/consulting' activeStyle={activeStyle}>
                         <img src={'/assets/icons/debate.svg'} />
-                        <div className="btn_title">컨설팅</div>
+                        <div className="Footer_btn_title">컨설팅</div>
                     </NavLink>
                 </li>
-                <li className="nav-btn">
+                <li className="Footer_nav_btn">
                     <NavLink exact to ='/simulation' activeStyle={activeStyle}>
                         <img src={'/assets/icons/copy.svg'} />
-                        <div className="btn_title">모의 지원</div>
+                        <div className="Footer_btn_title">모의 지원</div>
                     </NavLink>
                 </li>
-                <li className="nav-btn">
+                <li className="Footer_nav_btn">
                     <NavLink exact to ='/setting' activeStyle={activeStyle}>
                         <img src={'/assets/icons/user.svg'} />
-                        <div className="btn_title">설정</div>
+                        <div className="Footer_btn_title">설정</div>
                     </NavLink>
                 </li>
             </ul>

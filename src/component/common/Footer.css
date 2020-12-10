@@ -1,4 +1,4 @@
-.nav{
+.Footer_nav{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -10,7 +10,7 @@
     z-index: 1;
 }
 
-.nav-list{
+.Footer_nav_list{
     display: flex;
     list-style: none;
     padding: 10px 0;
@@ -18,7 +18,7 @@
     margin: 0;
 }
 
-.nav-btn{
+.Footer_nav_btn{
     font-size: 8px;
     text-align: center;
     height: 40px;
