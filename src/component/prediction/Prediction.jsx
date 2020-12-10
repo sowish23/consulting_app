@@ -2,8 +2,10 @@ import React from "react";
 import "./Prediction.css";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
+import { useHistory } from "react-router-dom";
 
-const Prediction = ({history}) => {
+const Prediction = () => {
+    const history = useHistory();
 	return (
 		<div>
 			<Header />
@@ -61,11 +63,11 @@ const Prediction = ({history}) => {
 									</table>
 								</div>
 							</div>
-							<div className="Prediction_section" onClick={() => history.push('/prediction/university')}>
+							<div className="Prediction_section">
 								<div className="Prediction_link_title">대학 / 학과별 분석 바로가기</div>
 								<div className="Prediction_analysis_box">
-									<button className="Prediction_analysis_btn">대학검색</button>
-									<button className="Prediction_analysis_btn">학과검색</button>
+									<button className="Prediction_analysis_btn" onClick={() => history.push('/prediction/university?type=univ')}>대학검색</button>
+									<button className="Prediction_analysis_btn" onClick={() => history.push('/prediction/university?type=department')}>학과검색</button>
 								</div>
 							</div>
 							<div className="Prediction_section" onClick={() => history.push('/prediction/beneficial')}>

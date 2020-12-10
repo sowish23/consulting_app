@@ -5,11 +5,13 @@ import Modal from '@material-ui/core/Modal';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import PaymentModal from './PaymentModal';
+import queryString from 'query-string';
 
-
-const University = () => {
+const University = ({match, location}) => {
 	const [open, setOpen] = React.useState(false);
-
+	const query = queryString.parse(location.search);
+	console.log(query.type)
+ 
 	const handleOpen = () => {
 		setOpen(true);
 	  };
@@ -27,9 +29,9 @@ const University = () => {
 						<div className="University_section">
 							<div className="University_link_title">대학 / 학과별 분석</div>
 							<div className="University_contents_radio">
-								<input id="univ" type="radio" name="relation" checked />
+								<input id="univ" type="radio" name="relation" checked={query.type === "univ"} />
 								<label className="University_relation_btn" for="univ">대학 검색</label>
-								<input id="department" type="radio" name="relation" />
+								<input id="department" type="radio" name="relation" checked={query.type === "department"} />
 								<label className="University_relation_btn" for="department">학과 검색</label>
 							</div>
 							<div className="University_select_box">
