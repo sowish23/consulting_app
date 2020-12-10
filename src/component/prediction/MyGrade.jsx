@@ -7,12 +7,12 @@ const MyGrade = () => {
 	return (
 		<div>
 			<Header />
-			<div className="prediction_page">
-				<div className="prediction_content">
-					<div className="prediction_detail">
-						<div className="section">
-							<div className="link_title">내 성적</div>
-							<div className="grade_table">
+			<div className="MyGrade_prediction_page">
+				<div className="MyGrade_prediction_content">
+					<div className="MyGrade_prediction_detail">
+						<div className="MyGrade_section">
+							<div className="MyGrade_link_title">내 성적</div>
+							<div className="MyGrade_grade_table">
 								<table>
 									<tbody>
 										<tr>
@@ -67,10 +67,10 @@ const MyGrade = () => {
 								</table>
 							</div>
 						</div>
-						<div className="section">
-							<div className="link_title">대학 / 학과별 분석 바로가기</div>
-							<div className="grade_table">
-								<div className="sort_tap">
+						<div className="MyGrade_section">
+							<div className="MyGrade_link_title">대학 / 학과별 분석 바로가기</div>
+							<div className="MyGrade_grade_table">
+								<div className="MyGrade_sort_tap">
 									<select>
 										<option selected>점수별</option>
 									</select>

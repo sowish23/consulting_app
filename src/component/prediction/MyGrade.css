@@ -1,61 +1,61 @@
-.prediction_page{
+.MyGrade_prediction_page{
     background-color: #eefbff;
     min-height: 100vh;
     height: 100%;
 }
 
-.prediction_content {
+.MyGrade_prediction_content {
     padding: 60px 0;
 }
 
-.prediction_detail {
+.MyGrade_prediction_detail {
     width: 90%;
     margin: auto;
     padding: 20px 0;
 }
 
-.section {
+.MyGrade_section {
     margin: 6px 0;
 }
 
-.link_title{
+.MyGrade_link_title{
     color: #009cc6;
     font-weight: bold;
 }
 
-.grade_table{
+.MyGrade_grade_table{
     margin: 12px 0;
     padding: 12px;
     background-color: white;
     border-radius: 6px;
 }
 
-.grade_table table {
+.MyGrade_grade_table table {
     text-align: center;
     width: 100%;
     border-collapse: collapse;
 }
 
-.grade_table table tbody tr{
+.MyGrade_grade_table table tbody tr{
     border-bottom: 1px solid #C2BEBE;
     font-size: 12px;
     text-align: center;
 }
 
-.grade_table table tbody tr:last-child{
+.MyGrade_grade_table table tbody tr:last-child{
     border-bottom: 0
 }
 
-.grade_table table tbody tr td{
+.MyGrade_grade_table table tbody tr td{
     padding: 6px;
 }
 
-.sort_tap {
+.MyGrade_sort_tap {
     margin-bottom: 12px;
     width: 100%;
 }
 
-.sort_tap select {
+.MyGrade_sort_tap select {
     width: 100%;
     text-align-last: center;
     background-color: #ffffff;
