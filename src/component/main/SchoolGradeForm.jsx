@@ -19,20 +19,20 @@ const SchoolGradeForm = ({history}) => {
 			<Header />
 			<div className="SchoolGradeForm_content">
 				<div className="SchoolGradeForm_detail">
-					<div className="btn_tab">
-						<button className="complete_btn" onClick={() => history.push('/mypage')}>완료하기</button>
+					<div className="SchoolGradeForm_btn_tab">
+						<button className="SchoolGradeForm_complete_btn" onClick={() => history.push('/mypage')}>완료하기</button>
 					</div>
-					<div className="info">
-						<p className="info_title">내신 성적 입력</p>
+					<div className="SchoolGradeForm_info">
+						<p className="SchoolGradeForm_info_title">내신 성적 입력</p>
 						{
 							semester.map(e => {
 								return (
-									<div className="info_table">
-										<div className="grade_cards">
-											<div className="grade_card">{e[0]}학년</div>
-											<div className="grade_card">{e[1]}학기</div>
+									<div className="SchoolGradeForm_info_table">
+										<div className="SchoolGradeForm_grade_cards">
+											<div className="SchoolGradeForm_grade_card">{e[0]}학년</div>
+											<div className="SchoolGradeForm_grade_card">{e[1]}학기</div>
 										</div>
-										<div className="score_table">
+										<div className="SchoolGradeForm_score_table">
 											<table>
 												<tbody>
 													<tr>
@@ -57,7 +57,7 @@ const SchoolGradeForm = ({history}) => {
 																		}
 																	</td>
 																	<td>
-																		<select className="table_select">
+																		<select className="SchoolGradeForm_table_select">
 																			<option value=""></option>
 																			{
 																				sub.map(e => {
@@ -69,13 +69,13 @@ const SchoolGradeForm = ({history}) => {
 																		</select>
 																	</td>
 																	<td>
-																		<input placeholder="입력" className="table_input"/>
+																		<input placeholder="입력" className="SchoolGradeForm_table_input"/>
 																	</td>
 																	<td>
-																		<input placeholder="입력" className="table_input"/>
+																		<input placeholder="입력" className="SchoolGradeForm_table_input"/>
 																	</td>
 																	<td>
-																		<input placeholder="입력" className="table_input"/>
+																		<input placeholder="입력" className="SchoolGradeForm_table_input"/>
 																	</td>
 																</tr>
 															)
