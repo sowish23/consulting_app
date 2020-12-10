@@ -31,7 +31,8 @@ function App() {
 
       <Route exact path="/prediction" component={Prediction} />
       <Route path="/prediction/mygrade" component={MyGrade} />
-      <Route path="/prediction/university" component={University} />
+      <Route exact path="/prediction/university" component={University} />
+      <Route path="/prediction/university/result" component={UniversityResult} />
       <Route path="/prediction/beneficial" component={Beneficial} />
 
       <Route path="/consulting" component={Consulting} />

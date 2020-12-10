@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import { useHistory } from "react-router-dom";
 import "./PaymentModal.css";
 
 const PaymentModal = (props) => {
     const {handleClose} = props;
+    const history = useHistory();
     return(
         <div className="PaymentModal_page">
             <div className="PaymentModal_content">
@@ -56,7 +58,7 @@ const PaymentModal = (props) => {
                         <input type="checkbox" />
                         <label>광고 수신 동의</label>
                     </div>
-                    <div className="PaymentModal_pay_btn">
+                    <div className="PaymentModal_pay_btn" onClick={() => history.push('/prediction/university/result')}>
                         <button>결제 바로 가기</button>
                     </div>
                 </div>
