@@ -1,11 +1,23 @@
 import React from "react";
 import "./University.css";
 import Pagination from '@material-ui/lab/Pagination';
+import Modal from '@material-ui/core/Modal';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
+import PaymentModal from './PaymentModal';
 
 
 const University = () => {
+	const [open, setOpen] = React.useState(false);
+
+	const handleOpen = () => {
+		setOpen(true);
+	  };
+	
+	const handleClose = () => {
+		setOpen(false);
+	};
+	
 	return (
 		<div>
 			<Header />
@@ -92,7 +104,15 @@ const University = () => {
 											<td>서울여대</td>
 											<td>수학과</td>
 											<td className="University_btn_td">
-												<button>결과</button>
+												<button onClick={() => handleOpen()}>결과</button>
+												<Modal
+													open={open}
+													onClose={handleClose}
+													aria-labelledby="simple-modal-title"
+													aria-describedby="simple-modal-description"
+												>
+													<PaymentModal  handleClose={handleClose}/>
+												</Modal>
 											</td>
 										</tr>
 										<tr>
