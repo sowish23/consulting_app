@@ -61,9 +61,9 @@ const SideNav = props => {
                                         <NavLink exact to ='/simulation'>
                                             <div className="SideNav_menu_sub_title">- 모의 지원 입력</div>
                                         </NavLink>
-                                        <NavLink exact to ='/simulation/result'>
-                                            <div className="SideNav_menu_sub_title">- 모의 지원 결과 보고</div>
-                                        </NavLink>
+                                        {/* <NavLink exact to ='/simulation/result'> */}
+                                            <div className="SideNav_menu_sub_title" onClick={() => alert("준비중 입니다.")}>- 모의 지원 결과 보고</div>
+                                        {/* </NavLink> */}
                                     </div> :
                                     null
                             }
