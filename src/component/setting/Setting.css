@@ -24,8 +24,6 @@
 
 .Setting_section_content {
     font-size: 0.8em;
-    display: flex;
-    justify-content: space-between;
 }
 
 .Setting_content_name {
@@ -33,6 +31,11 @@
 }
 
 .Setting_content_version {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Setting_section_flex {
     display: flex;
     justify-content: space-between;
 }

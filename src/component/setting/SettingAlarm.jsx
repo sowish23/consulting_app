@@ -14,7 +14,7 @@ const SettingAlarm = () => {
                 <div className="Setting_content">
                     <div className="Setting_section">
                         <div className="Setting_section_title">알림 설정</div>
-                        <div className="Setting_section_content">
+                        <div className="Setting_section_content Setting_section_flex">
                             <div className="Setting_content_version Setting_content_name">푸시 수신 동의</div>
                             <FormGroup row>
                                 <FormControlLabel
