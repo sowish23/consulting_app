@@ -84,7 +84,7 @@ const Simulation = ({history}) => {
                                                 </table>
                                             </div>
                                             <div className="Simulation_apply_btn">
-                                                <button onClick={() => history.push('/simulation/result')}>모의 지원 결과 보러 가기</button>
+                                                <button onClick={() => /*history.push('/simulation/result'*/ alert('준비중 입니다.')}>모의 지원 결과 보러 가기</button>
                                             </div>
                                         </div>
                                     )
