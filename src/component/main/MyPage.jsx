@@ -16,6 +16,9 @@ const MyPage = ({history}) => {
 			<div className="MyPage_page">
 				<div className="MyPage_content">
 					<div className="MyPage_detail">
+						<div className="MyPage_btn_tab">
+							<button className="MyPage_complete_btn" onClick={() => history.push('/info_form')}>수정하기</button>
+						</div>
 						<div className="MyPage_info">
 							<div className="MyPage_info_table">
 								<div className="MyPage_table_contents">
@@ -231,9 +234,6 @@ const MyPage = ({history}) => {
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="MyPage_edit_btn">
-							<button onClick={() => history.push('/info_form')}>수정하기</button>
 						</div>
 					</div>
 				</div>
