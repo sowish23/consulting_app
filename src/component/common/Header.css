@@ -1,4 +1,4 @@
-.header {
+.Header {
     position: fixed;
     top: 0;
     background-color: #EEFBFF;
@@ -8,14 +8,14 @@
     z-index: 2;
 }
 
-.header_width {
+.Header_width {
     width: 90%;
     margin: 0 auto;
     height: 60px;
     line-height: 60px;
 }
 
-.bars{
+.Header_bars{
     display: inline-block;
     font-size: 18px;
     color: #665252;
@@ -23,12 +23,12 @@
     width: 10%;
 }
 
-.title_center {
+.Header_title_center {
     display: inline-block;
     width: 80%;
 }
 
-.header_title{
+.Header_title{
     width:100%;
     font-size: 24px;
     text-align: center;
