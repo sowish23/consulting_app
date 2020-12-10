@@ -19,8 +19,8 @@ const SchoolGradeForm = ({history}) => {
 			<Header />
 			<div className="SchoolGradeForm_content">
 				<div className="SchoolGradeForm_detail">
-					<div className="SchoolGradeForm_btn_tab">
-						<button className="SchoolGradeForm_complete_btn" onClick={() => history.push('/mypage')}>완료하기</button>
+					<div className="SchoolGradeForm_skip_btn_tab">
+						<button className="SchoolGradeForm_skip_btn" onClick={() => history.push('/mypage')}>Skip</button>
 					</div>
 					<div className="SchoolGradeForm_info">
 						<p className="SchoolGradeForm_info_title">내신 성적 입력</p>
@@ -88,6 +88,9 @@ const SchoolGradeForm = ({history}) => {
 								)
 							})
 						}
+						<div className="SchoolGradeForm_btn_tab">
+							<button className="SchoolGradeForm_complete_btn" onClick={() => history.push('/mypage')}>완료하기</button>
+						</div>
 					</div>
 				</div>
 			</div>
