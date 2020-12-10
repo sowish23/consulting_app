@@ -1,38 +1,38 @@
-.Info_page {
+.Setting_page {
     background-color: #EEFBFF;
     min-height: 100vh;
     height: 100%;
 }
 
-.Info_content {
+.Setting_content {
     padding: 80px 0;
     width: 90%;
     margin: auto;
 }
 
-.section {
+.Setting_section {
     padding: 24px;
     background-color: #ffffff;
     border-radius: 24px;
     margin: 24px 0;
 }
 
-.section_title {
+.Setting_section_title {
     font-weight: bold;
     color: #009CC6;
 }
 
-.section_content {
+.Setting_section_content {
     font-size: 0.8em;
     display: flex;
     justify-content: space-between;
 }
 
-.content_name {
+.Setting_content_name {
     margin: 12px 0;
 }
 
-.content_version {
+.Setting_content_version {
     display: flex;
     justify-content: space-between;
 }
